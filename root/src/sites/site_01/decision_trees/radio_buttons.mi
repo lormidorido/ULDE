@@ -1,0 +1,7 @@
+%	(my $name) 	= keys %{$.args};
+%	my $i		= 0;
+		<div class="radio">
+%	foreach (@{$.args->{$name}}) {
+    		<input type="radio" id="<% $name . '_' . ++$i %>" name="<% $name %>" value="<% $_->[1] ? $_->[1] : undef %>"  /><label for="<% $name . '_' . $i %>"><% $_->[0] %></label>
+%	}
+		</div>

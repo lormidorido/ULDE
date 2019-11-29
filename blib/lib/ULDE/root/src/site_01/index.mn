@@ -1,0 +1,947 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>UK Law Online</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <link href="/static/css/site_01/global.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+      <link href="/static/css/site_01/global-ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->    
+    <link rel="stylesheet" type="text/css" href="/static/css/site_01/print.css" media="print" />
+    <link href="/static/css/site_01/theme.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+      <link href="/static/css/site_01/theme-ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if lte IE 6]>
+      <link href="/static/css/site_01/scheme-ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="/static/css/site_01/scheme.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/site_01/firm.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/static/js/ext/jquery/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="/static/js/ext/jquery/jquery-ui-1.8.7.custom.min.js"></script>
+    <script type="text/javascript" src="/static/js/ext/jquery/jquery-validate.1.7.min.js"></script>
+    <script type="text/javascript" src="/static/js/ext/jquery/site.js"></script>
+  </head>
+  <body>
+<div class="container">
+  <div class="layout" id="header-layout">
+    <div class="logo">
+      <a href="/"><img src="/static/images/site_01/uklo/logo.png" alt="UKLawOnline" /></a>
+    </div>
+  </div>
+  <div class="layout" id="nav-layout"><ul class="links">
+      <li class="link home"><a href="/">Home</a></li>
+<!--      <li class="link logout"><a href="logout.asp?a=1&firm=EAC0C656">Log out</a></li> -->
+	  <li class="link login"><a href="https://www.clientspace.org/members.asp?firm=EAC0C656">Log in</a></li>
+	  <li class="link forgottenlogin"><a href="https://www.clientspace.org/forgot.asp?firm=EAC0C656">Forgotten your login details?</a></li>
+      <li class="link register"><a href="https://www.clientspace.org/register.asp?firm=EAC0C656">Register</a></li>
+      <li class="link support"><a href="https://www.clientspace.org/support.asp?firm=EAC0C656">Support</a></li>
+    </ul>
+  </div>
+<div class="layout two" id="content-layout">
+  <div class="panel" id="side-panel">
+    <div id="services">
+      <h5>Legal Advice</h5>
+      <div class="service" id="phoneadvice-service">
+        <h6>Legal Advice Phone Call</h6>
+        <div class="howitworks">
+            <p>How this service works:</p>
+            <ol>
+              <li><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=100001">Click here</a> to purchase a legal advice phone call for <span class="price">&pound;0.10</span></li>
+              <li>We will schedule a time that is convenient for you for this call to take place.</li>
+              <li>At that time, you can talk to your solicitor and ask any questions you have about a single legal issue.</li>
+            </ol>        </div>
+      </div>
+      <div class="service" id="emailadvice-service">
+        <h6>Legal Advice E-mail</h6>
+        <div class="howitworks">
+          <p>How this service works:</p>
+          <ol>
+            <li><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=100002">Click here</a> to arrange a legal advice email.</li>
+            <li>Type all the questions and concerns you have about one legal issue into a secure, encrypted form. </li>
+            <li>We will contact you to advise on cost and arrange payment.</li>
+            <li>Your solicitor will answer all of your questions. Your response will be archived in your secure "My Services" section.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel" id="main-panel">
+    <div id="firmintrotext">
+      <p>UK Law Online Legal Services</p>
+    </div>
+    <div id="serviceleveldescription">
+      <p><b>LANDING PAGE</p>
+    </div>
+
+<p>Click <a href="/product/listing">here</a> for personal product listing</p>
+<!--
+
+<h2>Solicitor Prepared Document Service</h2>      <div class="howitworks">
+<p>How our online service works:</p>
+<ol>
+<li>Select a document from the list below - you can read more information and preview the document before purchase.</li>
+<li>Purchase the document through our secure online checkout.</li>
+<li>Complete the document online, then submit it to us for review</li>
+<li>After review, and or/edit, we'll upload your finalised document to your secure 'My Services' section of the website for you to download and use.</li>
+</ol>
+      </div>
+    <div class="service" id="document-service">
+      <ul class="groups" id="document-groups">
+	  
+        <li class="estateplanning">
+          <h3>Agreeing to buy and sell</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Circular letter introducing conditions of sale or purchase"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1015">Circular letter introducing conditions of sale or purchase</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1015', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1015">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1015">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Distribution agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=795">Distribution agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=795', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=795">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=795">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Letter giving notice of termination of contract"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1013">Letter giving notice of termination of contract</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1013', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1013">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1013">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Notice of cancellation of order"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1026">Notice of cancellation of order</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1026', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1026">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1026">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Purchase order"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=796">Purchase order</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=796', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=796">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=796">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Sale of goods contract"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1016">Sale of goods contract</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1016', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1016">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1016">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Terms and conditions for the reverse of a goods invoice"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=797">Terms and conditions for the reverse of a goods invoice</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=797', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=797">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=797">Select</a></div></td></tr>
+
+                <tr class="document last even">
+                  <td class="name"><a name="Terms and conditions for website selling consumer goods and/or services"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=810">Terms and conditions for website selling consumer goods and/or services</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=810', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=810">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=810">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Assignments</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document last odd">
+                  <td class="name"><a name="Notice of assignment/assignation of the benefit of a contract"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1025">Notice of assignment/assignation of the benefit of a contract</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1025', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1025">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1025">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Building Work</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document last odd">
+                  <td class="name"><a name="Small-scale building contract"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=813">Small-scale building contract</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=813', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=813">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=813">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Business startup</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Executive director's service agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=817">Executive director's service agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=817', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=817">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=817">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Limited liability partnership agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=803">Limited liability partnership agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=803', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=803">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=803">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Non-executive director appointment letter"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=815">Non-executive director appointment letter</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=815', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=815">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=815">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Notice of dissolution of partnership agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=814">Notice of dissolution of partnership agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=814', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=814">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=814">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Partnership agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=804">Partnership agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=804', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=804">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=804">Select</a></div></td></tr>
+
+                <tr class="document last even">
+                  <td class="name"><a name="Shareholders' agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=816">Shareholders' agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=816', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=816">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=816">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Dealing with an estate</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Declaration of trust relating to land"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=843">Declaration of trust relating to land</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=843', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=843">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=843">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Declaration of trust relating to land for one or two co-owners"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=844">Declaration of trust relating to land for one or two co-owners</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=844', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=844">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=844">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Declaration of trust relating to personal property"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=845">Declaration of trust relating to personal property</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=845', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=845">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=845">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Declaration of trust relating to shares"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=846">Declaration of trust relating to shares</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=846', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=846">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=846">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Deed of variation of share of joint property passing by survivorship"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=847">Deed of variation of share of joint property passing by survivorship</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=847', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=847">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=847">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Deed of variation redirecting property given by Will"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=848">Deed of variation redirecting property given by Will</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=848', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=848">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=848">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Deed of variation redirecting property passing by intestacy"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=849">Deed of variation redirecting property passing by intestacy</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=849', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=849">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=849">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Notice of severance of a joint tenancy"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=850">Notice of severance of a joint tenancy</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=850', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=850">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=850">Select</a></div></td></tr>
+
+                <tr class="document last odd">
+                  <td class="name"><a name="Simple life interest trust for adult life tenant and family"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=851">Simple life interest trust for adult life tenant and family</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=851', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=851">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=851">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Debt & arrears</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="General power of attorney to collect debts"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=818">General power of attorney to collect debts</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=818', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=818">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=818">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Guarantee for the payment of a debt"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=819">Guarantee for the payment of a debt</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=819', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=819">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=819">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Letter before action following earlier correspondence"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1021">Letter before action following earlier correspondence</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1021', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1021">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1021">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Letter before action for an outstanding invoice "></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1017">Letter before action for an outstanding invoice </a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1017', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1017">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1017">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Offer for making part payment of a debt via instalments"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1018">Offer for making part payment of a debt via instalments</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1018', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1018">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1018">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Promissory note in basic form"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=820">Promissory note in basic form</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=820', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=820">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=820">Select</a></div></td></tr>
+
+                <tr class="document last odd">
+                  <td class="name"><a name="Promissory note with interest and repayable by instalments"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=821">Promissory note with interest and repayable by instalments</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=821', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=821">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=821">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Debt recovery</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Form N1 - Claim form for debt recovery"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=823">Form N1 - Claim form for debt recovery</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=823', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=823">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=823">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Guarantee by several persons of limited sum"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=824">Guarantee by several persons of limited sum</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=824', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=824">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=824">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Guarantee deposit and charge as security for advances to a third party"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=825">Guarantee deposit and charge as security for advances to a third party</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=825', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=825">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=825">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Guarantee for the performance of a contract"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=826">Guarantee for the performance of a contract</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=826', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=826">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=826">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Reminder letter for an outstanding invoice payment"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1019">Reminder letter for an outstanding invoice payment</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1019', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1019">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1019">Select</a></div></td></tr>
+
+                <tr class="document last even">
+                  <td class="name"><a name="Reminder letter for continued outstanding invoice payment"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1020">Reminder letter for continued outstanding invoice payment</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1020', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1020">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1020">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Ecommerce</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Commission linking agreement for websites"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=829">Commission linking agreement for websites</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=829', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=829">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=829">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Domain name transfer agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=827">Domain name transfer agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=827', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=827">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=827">Select</a></div></td></tr>
+
+                <tr class="document last odd">
+                  <td class="name"><a name="Privacy policy for a website"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=828">Privacy policy for a website</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=828', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=828">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=828">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+
+        <li class="estateplanning">
+          <h3>Intellectual property</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Mutual non-disclosure agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=830">Mutual non-disclosure agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=830', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=830">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=830">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Non-disclosure agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=831">Non-disclosure agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=831', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=831">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=831">Select</a></div></td></tr>
+
+                <tr class="document last odd">
+                  <td class="name"><a name="Trade mark licence agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1027">Trade mark licence agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1027', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1027">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1027">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Media and Entertainment</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Model photograph agreement"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1024">Model photograph agreement</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1024', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1024">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1024">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Photographer's agreement as to the use of his or her work"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1022">Photographer's agreement as to the use of his or her work</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1022', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1022">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1022">Select</a></div></td></tr>
+
+                <tr class="document last odd">
+                  <td class="name"><a name="Transfer of copyright in photographs"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1023">Transfer of copyright in photographs</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1023', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1023">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1023">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Powers of attorney</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="General power of attorney (England & Wales)"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=858">General power of attorney (England & Wales)</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=858', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=858">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=858">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Lasting power of attorney - Health and welfare"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=862">Lasting power of attorney - Health and welfare</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=862', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=862">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=862">Select</a></div></td></tr>
+
+                <tr class="document last odd">
+                  <td class="name"><a name="Lasting power of attorney - Property and financial affairs"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=861">Lasting power of attorney - Property and financial affairs</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=861', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=861">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=861">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Powers of attorney - objections</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="COP 7 - Objection to Court of Protection of LPA registration"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=870">COP 7 - Objection to Court of Protection of LPA registration</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=870', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=870">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=870">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="COP 8 - Application relating to EPA registration"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=871">COP 8 - Application relating to EPA registration</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=871', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=871">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=871">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="LPA 6 - Objection by donor of LPA registration"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=872">LPA 6 - Objection by donor of LPA registration</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=872', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=872">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=872">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="LPA 7 - Objection to the Public Guardian of LPA registration"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=873">LPA 7 - Objection to the Public Guardian of LPA registration</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=873', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=873">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=873">Select</a></div></td></tr>
+
+                <tr class="document last odd">
+                  <td class="name"><a name="LPA 8 - Notice to Public Guardian of application to Court of Protection"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=874">LPA 8 - Notice to Public Guardian of application to Court of Protection</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=874', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=874">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=874">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Powers of attorney - registration</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="EP1 PG - Notice of intention to register an EPA (England & Wales)"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=865">EP1 PG - Notice of intention to register an EPA (England & Wales)</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=865', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=865">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=865">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="EP2 PG - Application to register an EPA (England & Wales)"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=867">EP2 PG - Application to register an EPA (England & Wales)</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=867', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=867">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=867">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="LPA 1 - Notice of intention to register an LPA"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=868">LPA 1 - Notice of intention to register an LPA</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=868', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=868">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=868">Select</a></div></td></tr>
+
+                <tr class="document last even">
+                  <td class="name"><a name="LPA 2 - Application to register a lasting power of attorney"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=869">LPA 2 - Application to register a lasting power of attorney</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=869', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=869">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=869">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Powers of attorney - revocation</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Revocation of a general power of attorney"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=875">Revocation of a general power of attorney</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=875', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=875">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=875">Select</a></div></td></tr>
+
+                <tr class="document last even">
+                  <td class="name"><a name="Revocation of an enduring power of attorney"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=876">Revocation of an enduring power of attorney</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=876', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=876">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=876">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+        <li class="estateplanning">
+          <h3>Probate</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="PA 1 - Probate application form"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=852">PA 1 - Probate application form</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=852', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=852">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=852">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Probate letter to annuity provider"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1032">Probate letter to annuity provider</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1032', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1032">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1032">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Probate letter to bank or building society"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1028">Probate letter to bank or building society</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1028', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1028">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1028">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Probate letter to investment provider"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1031">Probate letter to investment provider</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1031', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1031">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1031">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Probate letter to life insurance company"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1030">Probate letter to life insurance company</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1030', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1030">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1030">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Probate letter to loan or credit card company"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1034">Probate letter to loan or credit card company</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1034', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1034">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1034">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Probate letter to mortgage company"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1035">Probate letter to mortgage company</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1035', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1035">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1035">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Probate letter to pension provider"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1037">Probate letter to pension provider</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1037', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1037">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1037">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Probate letter to share registrar"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1029">Probate letter to share registrar</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1029', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1029">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1029">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Probate letter to utility company"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1033">Probate letter to utility company</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1033', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1033">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1033">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Renunciation of administration"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=853">Renunciation of administration</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=853', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=853">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=853">Select</a></div></td></tr>
+
+                <tr class="document last even">
+                  <td class="name"><a name="Renunciation of probate"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=854">Renunciation of probate</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=854', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=854">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=854">Select</a></div></td></tr>
+
+              </tbody>
+            </table>
+        </li>
+		
+        <li class="estateplanning">
+          <h3>Wills</h3>
+          <table class="documents">
+              <thead>
+                <tr class="header">
+                  <th class="name">Document</th>
+                  <th class="info">Info</th>
+                  <th class="info">Start now</th>
+                  <th class="price">Price</th>
+                  <th class="buy">Buy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="document first odd">
+                  <td class="name"><a name="Comprehensive Will for a married person or civil partner"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=833">Comprehensive Will for a married person or civil partner</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=833', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=833">Start now</a></div></td>
+                  <td class="price">&pound;0.10</td>
+                  <td class="buy"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=833">Buy</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Comprehensive Will for an unmarried person"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=834">Comprehensive Will for an unmarried person</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=834', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=834">Start now</a></div></td>
+                  <td class="price">&pound;0.10</td>
+                  <td class="buy"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=834">Buy</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Comprehensive Will for an unmarried person (inc. STEP standard provisions)"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1445">Comprehensive Will for an unmarried person (inc. STEP standard provisions)</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=1445', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=1445">Start now</a></div></td>
+                  <td class="price">&pound;0.10</td>
+                  <td class="buy"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=1445">Buy</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Comprehensive Will for married person or civil partner (pair)"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=931">Comprehensive Will for married person or civil partner (pair)</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=931', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=931">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=931">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Comprehensive Will for unmarried person (pair)"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=932">Comprehensive Will for unmarried person (pair)</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=932', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=932">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=932">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Discretionary Trust Will for married person or civil partner (pair)"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=835">Discretionary Trust Will for married person or civil partner (pair)</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=835', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=835">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=835">Select</a></div></td></tr>
+
+                <tr class="document odd">
+                  <td class="name"><a name="Letter of wishes"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=836">Letter of wishes</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=836', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=836">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=836">Select</a></div></td></tr>
+
+                <tr class="document even">
+                  <td class="name"><a name="Living Will"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=837">Living Will</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=837', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=837">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=837">Select</a></div></td></tr>
+
+                <tr class="document last odd">
+                  <td class="name"><a name="Revocation of a Living Will"></a><a href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=838">Revocation of a Living Will</a></td>
+                  <td class="info"><div class="button"><a title="Read about this document and its intended use" href="#" onclick="myWin = window.parent.open('https://www.clientspace.org/description.asp?firm=EAC0C656&id=838', 'NewWindow', 'toolbar=no,width=660,height=540,scrollbars=yes,status=yes,resizable=yes');myWin.focus(); return false;">Info</a></div></td>
+                  <td class="preview"><div class="button"><a title="Check to see if this is the document you require" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=838">Start now</a></div></td>
+                  <td class="price">FREE!</td>
+                  <td class="free"><div class="button"><a title="Select this document for purchase or submission" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=838">Select</a></div></td></tr>
+
+            </tbody>
+          </table>
+        </li>
+      </ul>
+    </div>
+	-->
+  </div>
+</div>
+      <div class="layout" id="footernav-layout">
+        <p>Please call 0845 644 8988 for any technical support queries</p>
+        <p>VAT number 131 2676 37</p>
+        <ul class="links">
+          <li class="link terms"><a href="#" onClick="myWin = window.open('https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=2', 'Terms', 'toolbar=NO,width=800,height=750,scrollbars=yes,resizable=yes');myWin.focus(); return false;">Terms &amp; Conditions</a></li>
+          <li class="link privacy"><a href="#" onClick="myWin = window.open('https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=1', 'Terms', 'toolbar=NO,width=800,height=750,scrollbars=yes,resizable=yes');myWin.focus(); return false;">Data &amp; Privacy Policy</a></li>
+          <li class="link privacy"><a href="#" onClick="myWin = window.open('https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=5', 'Terms', 'toolbar=NO,width=800,height=750,scrollbars=yes,resizable=yes');myWin.focus(); return false;">Merchant Notice</a></li>
+          <li class="link copyright"><a href="#" onClick="myWin = window.open('https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=3', 'Terms', 'toolbar=NO,width=800,height=750,scrollbars=yes,resizable=yes');myWin.focus(); return false;">Intellectual Property Rights Notice</a></li>
+          <li class="link admin"><a href="https://www.clientspace.org/admin2.asp?firm=EAC0C656">Admin</a></li>
+        </ul>
+      </div>
+      <div class="layout" id="footer-layout">
+        <div class="logo">
+          <a href="http://www.directlaw.co.uk" target="_new">Powered by DirectLaw</a><p>DirectLaw is a trade name of Epoq Legal Limited</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

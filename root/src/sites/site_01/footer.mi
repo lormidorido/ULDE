@@ -1,0 +1,52 @@
+      <div class="layout <% $c->req->uri->path eq '/' ? 'first_page' : $c->req->uri->path eq '/product/listing' ? 'product_page' : $c->req->uri->path eq 'advice' ? 'advice_page' : $c->req->uri->path eq '/about' ? 'about_us_page' : $c->req->uri->path eq '/contact' ? 'contact_us_page' : '' %>" id="footernav-layout">
+
+		<div id="footer-nav">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/product/listing">Online Wills</a></li>
+				<li><a href="https://www.clientspace.org/members.asp?firm=EAC0C656">Log in</a></li>
+				<li><a href="https://www.clientspace.org/register.asp?firm=EAC0C656">Register</a></li>
+				<li><a href="/about">About Us</a></li>
+				<li><a href="https://www.clientspace.org/support.asp?firm=EAC0C656">Contact Us</a></li>
+			</ul>
+			<div id="footer-logo">
+    	  		<a href="/"><img src="/static/images/site_01/uklo/uklo_logo_small_2.png" alt="UK Law Online" /></a>
+	    	</div>
+			
+
+        <ul class="links">
+		  <li class="link"><div id="footer-uklo-text">© UK Law Online Limited</div></li>
+          <li class="link"><a class="popup" href="https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=2">Terms &amp; Conditions</a></li>
+          <li class="link"><a class="popup" href="https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=1">Data &amp; Privacy Policy</a></li>
+          <li class="link"><a class="popup" href="https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=5">Merchant Notice</a></li>
+          <li class="link"><a class="popup" href="https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=3">Intellectual Property Rights Notice</a></li>
+<!--          <li class="link"><a href="https://www.clientspace.org/admin2.asp?firm=EAC0C656">Admin</a></li> -->
+        </ul>
+
+<!-- 
+        <ul class="links">
+          <li class="link terms"><a href="#" onClick="myWin = window.open('https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=2', 'Terms', 'toolbar=NO,width=800,height=750,scrollbars=yes,resizable=yes');myWin.focus(); return false;">Terms &amp; Conditions</a></li>
+          <li class="link privacy"><a href="#" onClick="myWin = window.open('https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=1', 'Terms', 'toolbar=NO,width=800,height=750,scrollbars=yes,resizable=yes');myWin.focus(); return false;">Data &amp; Privacy Policy</a></li>
+          <li class="link privacy"><a href="#" onClick="myWin = window.open('https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=5', 'Terms', 'toolbar=NO,width=800,height=750,scrollbars=yes,resizable=yes');myWin.focus(); return false;">Merchant Notice</a></li>
+          <li class="link copyright"><a href="#" onClick="myWin = window.open('https://www.clientspace.org/ukterms.asp?firm=EAC0C656&n=3', 'Terms', 'toolbar=NO,width=800,height=750,scrollbars=yes,resizable=yes');myWin.focus(); return false;">Intellectual Property Rights Notice</a></li>
+          <li class="link admin"><a href="https://www.clientspace.org/admin2.asp?firm=EAC0C656">Admin</a></li>
+        </ul>
+-->
+		</div>
+		
+
+<!--
+        <p>Please call 0845 644 8988 for any technical support queries</p>
+        <p>VAT number 131 2676 37</p>
+-->
+      </div>
+<!--
+      <div class="layout" id="footer-layout">
+        <div class="logo">
+          <a href="http://www.directlaw.co.uk" target="_new">Powered by DirectLaw</a><p>DirectLaw is a trade name of Epoq Legal Limited</p>
+        </div>
+      </div>
+->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<div style="display: none;">
+	<div id="dialog-wills-838" class="popup-content">
+		<h2>Revocation of a Living Will</h2>
+		<p>This is a formal, written revocation of a Living Will. It would be appropriate where the directions given and the views expressed in a Living Will no longer reflect the maker's wishes, and the maker does not wish to substitute a new Living Will.
+		<p class="odd">If it is desired to substitute a new Living Will in place of the old, the Living Will precedent should be used instead, as it contains a clause revoking any previous Living Wills.</p>
+		<& /product/descr/descr-buttons.mi, %{$.args} &>
+	</div>
+</div>

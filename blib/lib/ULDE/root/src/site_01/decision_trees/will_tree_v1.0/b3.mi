@@ -1,0 +1,10 @@
+<div style="display: none;">
+	<div id="will-tree-b3" class="popup-content selector no-notifications">
+		<div class="question ui-state-default ui-corner-all" title="Mirror wills are designed for when a husband and wife or partners make similar Wills outlining similar wishes, usually naming each other as beneficiaries and as one of the executors. The Wills are based on the similar information but are delivered as two separate documents.">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you require Mirror Wills?</p>
+			<& /decision_trees/radio_buttons.mi, q7 => [[qw(yes #dialog-wills-1793)],[qw(no #will-tree-c6)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q7_next', prev => 'will-tree-a2', info => 'Please answer the above question to proceed', title => 'UKLO Will Selector' &>
+	</div>
+</div>

@@ -1,0 +1,5 @@
+#LWP-Cookies-1.0
+Set-Cookie3: ASPSESSIONIDSQERCAST=JKPNAPABEOIIJLHNIEOGBAOE; path="/"; domain=www.clientspace.org; path_spec; secure; discard; version=0
+Set-Cookie3: CFID=11545357; path="/"; domain=www.epoq.co.uk; path_spec; discard; HttpOnly; version=0
+Set-Cookie3: CFTOKEN=79a018ac6b6fa952%2D6ADC560D%2D2002%2D3A60%2D031973560D4914B9; path="/"; domain=www.epoq.co.uk; path_spec; discard; HttpOnly; version=0
+Set-Cookie3: JSESSIONID=897415227DEB4B1520DC1908340BCC7F%2Ecfusion; path="/"; domain=www.epoq.co.uk; path_spec; discard; HttpOnly; version=0

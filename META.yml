@@ -1,0 +1,84 @@
+---
+abstract: ~
+author:
+  - "Catalyst developer\r"
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+  Test::More: 0.88
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.19'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ULDE
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Catalyst::Action::REST: 1.17
+  Catalyst::Action::RenderView: 0
+  Catalyst::Authentication::Store::DBIx::Class: 0.1503
+  Catalyst::Helper::Model::DBIC::Schema: 0.60
+  Catalyst::Model::Adaptor: 0.10
+  Catalyst::Model::DBIC::Schema: 0.65
+  Catalyst::Model::Facebook: 0.101
+  Catalyst::Model::Factory: 0.10
+  Catalyst::Plugin::Authentication: 0.10021
+  Catalyst::Plugin::Authorization::Roles: 0.09
+  Catalyst::Plugin::Cache: 0.12
+  Catalyst::Plugin::ConfigLoader: 0
+  Catalyst::Plugin::DateTime: 0.03
+  Catalyst::Plugin::Session: 0.35
+  Catalyst::Plugin::Session::State::Cookie: 0.17
+  Catalyst::Plugin::Session::Store::DBIC: 0.12
+  Catalyst::Plugin::Session::Store::FastMmap: 0.16
+  Catalyst::Plugin::Static::Simple: 0
+  Catalyst::Runtime: 5.90015
+  Catalyst::TraitFor::Request::BrowserDetect: 0.02
+  Catalyst::View::HTML::Mason: 0.19
+  Catalyst::View::JSON: 0.33
+  Catalyst::View::Mason2: 0.03
+  Class::DBI: 3.0.17
+  Config::General: 0
+  Config::ZOMG: 1.0
+  DBD::Pg: 2.19.2
+  DBIx::Class::Schema::Loader: 0.07025
+  Data::Dumper: 0
+  Data::Serializer::Raw: 0.02
+  DateTime::Format::Pg: 0.16010
+  Digest::HMAC_SHA1: 1.03
+  Excel::Writer::XLSX: 0.49
+  Facebook: 0.102
+  HTML::FormHandler: 0.40022
+  HTML::FormHandler::Model::DBIC: 0.21
+  HTML::Summary: 0.019
+  HTML::TokeParser: 3.69
+  HTML::Tree: 5.03
+  HTTP::Cookies: 6.01
+  HTTP::Date: 6.02
+  HTTP::Response: 6.04
+  JSON: 2.90
+  JSON::XS: 3.01
+  LWP::Protocol::https: 6.06
+  LWP::UserAgent: 6.06
+  List::Util: 1.41
+  Moose: 2.1402
+  MooseX::ClassAttribute: 0.27
+  MooseX::MarkAsMethods: 0.15
+  MooseX::NonMoose: 0.22
+  MooseX::Traits: 0.12
+  MooseX::UndefTolerant: 0
+  String::MkPasswd: 0.05
+  Text::Stripper: 1.16
+  URI: 1.67
+  URI::Escape: 3.31
+  URL::Encode: 0.03
+  namespace::autoclean: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01

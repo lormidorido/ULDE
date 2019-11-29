@@ -1,0 +1,10 @@
+<div style="display: none;">
+	<div id="will-tree-root" class="popup-content selector no-notifications">
+		<div class="question ui-state-default ui-corner-all" title="Domicile is a legal term, the purpose of which is to connect an individual to a territory that has a distinct system of law, e.g. England and Wales, Scotland, France. There is no precise or agreed definition.  Broadly speaking, you are domiciled in the country in which you have made your permanent home.">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Are you domiciled (resident) in England, Wales or Northern Ireland?</p>
+			<& /decision_trees/radio_buttons.mi, q1 => [[qw(yes #will-tree-a2)],[qw(no #will-tree-a1)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q1_next', info => 'Please answer the above question to proceed', id => 'root', title => 'UKLO Will Selector' &>
+	</div>
+</div>

@@ -1,0 +1,8 @@
+<div style="display: none;">
+	<div id="will-tree-b2" class="popup-content selector no-notifications">
+		<div class="message ui-state-default ui-corner-all">
+			<p>Unfortunately, our Wills are not suitable for your circumstances. You should seek legal advice in your country of residence.</p>
+		</div>
+		<& /decision_trees/control_buttons.mi, prev => 'will-tree-a2', info => 'You can go back to review your answers' &>
+	</div>
+</div>

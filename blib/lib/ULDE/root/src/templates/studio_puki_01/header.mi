@@ -1,0 +1,118 @@
+<%init>
+    use utf8;
+</%init>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UK Law Online</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<% $.static_root %>/imgs/favicon-32x32.ico">
+    <link rel="stylesheet" href="<% $.static_root %>/css/global.css">
+    <link rel="stylesheet" href="<% $.static_root %>/css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="<% $.static_root %>/css/web-icons.css">
+%   if ($c->stash->{load_component}->{carousel}) {
+      <link rel="stylesheet" type="text/css" href="<% $.static_root %>/bower_components/slick-carousel/slick/slick.css"/>
+%   }
+%   if ($c->stash->{load_component}->{date_picker}) {
+      <link rel="stylesheet" type="text/css" href="<% $.static_root %>/bower_components/foundation-datepicker/stylesheets/foundation-datepicker.css"/>
+%   }
+%   if ($c->stash->{load_component}->{data_tables}) {
+      <link rel="stylesheet" type="text/css" href="<% $.static_root %>/bower_components/datatables/media/css/dataTables.foundation.css"/>
+<!--      <link rel="stylesheet" type="text/css" href="<% $.static_root %>/bower_components/datatables/media/css/dataTables.tableTools.css"/> -->
+<!--      <link rel="stylesheet" type="text/css" href="<% $.static_root %>/bower_components/datatables/media/css/dataTables.fixedHeader.css"/> -->
+%   }
+    <script src="<% $.static_root %>/bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body class="<% join ' ' , @{$c->stash->{body_class}} %>">
+    <div class="show-for-small-only">
+      <br><br>
+      <center>
+        <p><b>Site under construction for small screen devices</b></p>
+        <img src="<% $.static_root %>/imgs/uklo_logo.png">
+        </center>
+    </div>
+    <div id="page-container" class="show-for-medium-up">
+      <header id="header">
+        <div class="row collapse" style="height:48px">
+          <div class="medium-offset-2 medium-3 xlarge-offset-2 xlarge-3 columns show-for-medium-up">
+%           if ($c->session->{params}->srv_def->{associate}) {
+							<div data-tooltip aria-haspopup="true" title="Click to visit <% $c->session->{params}->srv_def->{associate}->{name} %>" class="round has-tip sp-branding-bar <% $c->session->{params}->srv_def->{associate}->{css_class} %>">
+              	<a href="http://<% $c->session->{params}->srv_def->{associate}->{host} %>" target="_blank"><img src="<% $.static_root %>/imgs/associates/logos/<% $c->session->{params}->srv_def->{associate}->{img_logo} %>"/></a>
+              </div>
+%           }
+          </div>
+          <div class="medium-8 medium-offset-3 xlarge-6 xlarge-offset-5 columns">
+            <ul class="inline-list show-for-medium-up sp-top-bar">
+%             if ($c->user_exists) {
+                <li class="<% $c->stash->{active_menu_item} == 10 && 'active' %>"><a class="messages" href="<% $c->uri_for('/account/messages') %>">Messages ( <span class="count"><% $c->stash->{messenger}->{unread_count} || 0 %></span> )</a></li>
+%             }
+%             unless ($c->user_in_realm('reviewer')) {
+<!--                <li class="<% $c->stash->{active_menu_item} == 9 && 'active' %>"><a class="basket" href="<% $c->stash->{basket}->{count} ? $c->uri_for('/account/basket') : 'javascript:false;' %>">Basket ( <span class="count"><% $c->stash->{basket}->{count} || 0 %></span> )</a></li> -->
+                <li class="<% $c->stash->{active_menu_item} == 6 && 'active' %>"><a href="<% $c->uri_for('/help') %>">Help</a></li>
+%             }
+%             if ($c->user_in_realm('customer')) {
+                <li class="<% $c->stash->{active_menu_item} == 11 && 'active' %>"><a href="<% $c->uri_for('/account/overview') %>">My UKLO</a></li>
+%             } elsif ($c->user_in_realm('reviewer')) {
+                <li class="<% $c->stash->{active_menu_item} == 8 && 'active' %>"><a href="<% $c->uri_for($c->controller('Admin::Root')->action_for('admin')) %>">Admin area</a></li>
+%             } else {
+<!--                <li class="<% $c->stash->{active_menu_item} == 5 && 'active' %>"><a href="<% $c->uri_for('/account/register') %>">Register</a></li> -->
+                <li class="<% $c->stash->{active_menu_item} == 8 && 'active' %>"><a href="<% $c->uri_for('/admin') %>">Admin Registration</a></li>
+%             }
+
+%             if ($c->user_exists) {
+                <li class="right"><a target="_top" href="<% $c->uri_for('/logout') %>" class="button logout">LOG OUT</a></li>
+%             } else {
+                <li class="right"><button href="#" data-dropdown="login" aria-controls="login" data-options="is_hover: true" aria-expanded="false" class="button dropdown login">LOG IN</button><br>
+                  <ul id="login" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+                    <li>
+%                     # need to remove this nonsense and specify all in the Form classes
+                      <form  class="login" id="login_header" data-abide="ajax" action="<% $c->uri_for('/login') %>" method="post">
+                      <% $c->stash->{form_log_in}->render_field('login_user_name') %>
+                      <% $c->stash->{form_log_in}->render_field('login_password') %>
+                      <% $c->stash->{form_log_in}->render_field('log_in') %>
+                      </form>
+                    </li>
+                  </ul>
+                </li>
+%            }
+            </ul>
+            <% # topbar on small media %>
+            <nav class="top-bar show-for-small-only" data-topbar role="navigation">
+              <ul class="title-area">
+                <li class="name">
+                  <h1><a href="#">UKLO</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+              </ul>
+              <section class="top-bar-section">
+                <ul class="right">
+                  <li class="has-dropdown">
+                      <a href="#">LOG IN</a>
+                    <ul class="dropdown">
+                      <li><a href="#">Link 1</a></li>
+                      <li><a href="#">Link 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </section>
+            </nav>
+
+          </div>
+        </div>
+        <div class="row show-for-medium-up">
+          <div class="medium-3 columns"><a href="/" class="sp-logo"><img src="<% $.static_root %>/imgs/uklo_logo.png"></a></div>
+          <div class="medium-9 medium-offset-2 xlarge-8 xlarge-offset-3 columns end">
+            <ul class="medium-block-grid-4 sp-menu-bar text-center">
+              <li class="<% $c->stash->{active_menu_item} == 1 && 'active' %>"><a href="/">Home</a></li>
+              <li class="<% $c->stash->{active_menu_item} == 2 && 'active' %>"><a href="<% $c->uri_for('/product/business') %>">Business</a></li>
+              <li class="<% $c->stash->{active_menu_item} == 3 && 'active' %>"><a href="<% $c->uri_for('/product/personal') %>">Personal</a></li>
+              <li class="<% $c->stash->{active_menu_item} == 4 && 'active' %>"><a href="#">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+%   if ($c->stash->{console_msg}) {
+      <script>console.log('<% $c->stash->{console_msg} %>')</script>
+%   }
+      <main id="main">

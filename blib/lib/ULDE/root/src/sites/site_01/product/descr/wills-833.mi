@@ -1,0 +1,9 @@
+<div style="display: none;">
+	<div id="dialog-wills-833" class="popup-content">
+		<h2>Comprehensive Will for a married person or civil partner</h2>
+		<p>This Will is suitable for anyone who is married or in a civil partnership. It will allow you to make as many gifts of money or specific items as you like.</p>
+		<p class="odd">You will be able to leave the remainder of your estate after making gifts (i.e. the residuary estate) to as many persons you would like, either in equal shares or in varying percentages. You can also vary how you would like to leave your residuary estate, make provisions for the care of pets and appoint guardians for your children. (Those with spouses/civil partners domiciled outside the UK should note that the normal tax-free allowances do not apply, and we recommend tax advice is sought in these cases.)</p>
+		<p>This Will is suitable for use in England and Wales and Northern Ireland.</p>
+		<& /product/descr/descr-buttons.mi, %{$.args} &>
+	</div>
+</div>

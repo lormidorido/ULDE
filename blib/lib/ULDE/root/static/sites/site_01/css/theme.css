@@ -1,0 +1,569 @@
+/* ---------------------------------------------------------- */
+/* -------------------- THEME CSS (TECH) -------------------- */
+/* ---------------------------------------------------------- */
+
+/* Created: 2009-09-11 14:47:30 SW
+ * Updated: 2009-10-29 08:32:48 SW
+ * 
+ * Description:
+ * -----------
+ * This is all the default styling for the 'Tech' theme, colours
+ * are overridden in the scheme.css files.
+ */
+
+/* ----- STANDARD ELEMENTS ----- */
+	a { color: #0099ff; }
+	em { font-style: normal; color: #ff6600 }
+	iframe { border: 1px solid #a3a3a3; background: #ffffff }
+/* [END] STANDARD ELEMENTS ----- */
+
+/* ----- CUSTOM CLASSES ----- */
+	form .controls { margin-bottom: 10px }
+	.controls { overflow: hidden; text-align: right }
+		.control { margin: 0 0 0.25em 0.25em }
+		form.simple .button, .controls .button, .control input { cursor: pointer; color: #ffffff; background: #999999 url('/static/images/site_01/uklo/map-buttons.png') 0 -732px repeat-x; border: 1px solid #666666; padding: 2px; font-weight: bold; text-decoration:none; }
+		.control input:hover { background-color: #cccccc }
+		.control input:active { background-color: #666666 }
+	ul.left { text-align: left }
+	form ul.left { float: left }
+/* [END] CUSTOM CLASSES ----- */
+
+/* ----- LAYOUT ----- */		
+	#content-layout { background-image: url('../uklo/test/sidebar-bg.png'); background-repeat: repeat-y }
+		#content-layout.one { background-image: none }
+		#content-layout.two { background-position: right center }
+		#content-layout.three { background-position: left center }
+			#content-layout.two #main-panel { padding-right: 310px; margin-bottom:30px; }
+	#side-panel { width: 242px; padding: 0 8px }
+	#side-panel-no-img { padding: 0 8px }
+/* [END] LAYOUT ----- */
+
+/* ----- NAVIGATION ----- */
+/*
+	#nav-layout { position: relative; height: 36px; background: url('../uklo/test/map-navigation.png') 0 0 repeat-x        }
+		#nav-layout .links { position: absolute; top: 0; right: 0; height: 36px; background: url('../uklo/test/map-navigation.png') right -540px no-repeat; padding-right: 2px; overflow: hidden }
+		#nav-layout .links a { color: #000000 }
+		#nav-layout .link { height: 36px; overflow: hidden; float: left; padding: 0 }
+		#nav-layout .link a { padding: 8px; line-height: 20px; display: block; background: url('../uklo/test/map-navigation.png') 0 -252px no-repeat        }
+		#nav-layout .link a:hover { background-position: 0 -288px; text-decoration: none }
+		#nav-layout .about a { background-position: 0 -252px; padding-left: 36px }
+		#nav-layout .about a:hover { background-position: 0 -288px } 
+		#nav-layout .register a { background-position: 0 -324px; padding-left: 36px }
+		#nav-layout .register a:hover { background-position: 0 -360px }
+		#nav-layout .services a { background-position: 0 -576px; padding-left: 36px }
+		#nav-layout .services a:hover { background-position: 0 -612px }
+		#nav-layout .support a { background-position: 0 -468px; padding-left: 36px }
+		#nav-layout .support a:hover { background-position: 0 -504px }
+		#nav-layout .contact a { background-position: 0 -396px; padding-left: 36px } 
+		#nav-layout .contact a:hover { background-position: 0 -432px } 
+		#nav-layout .home a { background-position: 0 -36px; padding-left: 36px }
+		#nav-layout .home a:hover { background-position: 0 -72px } 
+		#nav-layout .login a { background-position: 0 -108px; padding-left: 36px }
+		#nav-layout .login a:hover { background-position: 0 -144px } 
+		#nav-layout .logout a { background-position: 0 -180px; padding-left: 36px }
+		#nav-layout .logout a:hover { background-position: 0 -216px }
+*/
+/* [END] NAVIGATION ----- */
+
+/* ----- FOOTER ----- */
+
+	#footernav-layout { border-top: 1px solid #a3a3a3 }
+		#footernav-layout .links { margin: 4px 0 }
+		#footernav-layout .link { /* border-right: 1px solid #48df00; */ padding: 0 4px 0 2px }
+		#footernav-layout .admin { border-right: 0 }
+
+/* [END] FOOTER ----- */
+
+/* ----- FORMS ----- */
+	#main-panel form { padding: 10px 10px 0; background: #ededed; border: 1px solid #cccccc; max-width: 648px; margin-right: 10px }
+		#main-panel form.complex { display: block; padding: 0; background: transparent; border: 0; max-width: 100%; overflow: visible; margin-right: 0 }
+		#main-panel form.simple { padding-bottom: 10px }
+		#main-panel fieldset textarea { width: 358px }
+		#main-panel fieldset p { width: 100% }
+		#main-panel .field { position: relative; display: inline-block }
+		#main-panel .fields > .field { display: block }
+			#main-panel .field .input { padding-left: 200px }
+			#main-panel .field label { width: 180px; position: absolute; top: 0; left: 0 }
+			#main-panel .input label { position: static }				
+		#side-panel .field label { float: left; width: 80px }
+		#side-panel .field .input { padding-left: 90px; text-align: right }
+/* [END] FORMS ----- */
+
+/* ----- TABLES ----- */
+	table { width: 100%; border: 1px solid #a3a3a3 }
+		thead tr th { background: #cccccc; border: 1px solid #a3a3a3 }
+		tbody tr { border-bottom: 1px dashed #a3a3a3; background: #ffffff }
+			tbody tr.even { background: #e9e9e9 }
+			tbody tr.last { border-bottom: 0 }
+/* [END] TABLES ----- */
+			
+/* ----- GRID ITEMS ----- */
+	tr.pagination th { background: #e4e4e4 }
+	tr.filter th { background: #e4e4e4 }
+		tr.filter th input { font-size: 11px; color: #999999 }
+		tr.filter th input.blank-filter { color: #cccccc; font-style: italic }
+		
+	th .sort-button { width: 16px; height: 16px; float: right; overflow: hidden; background: url('/static/images/site_01/uklo/map-buttons.png') -252px -680px no-repeat; outline: 0; text-indent: -999px }
+		th.asc .sort-button { background-position: -252px -696px; background-repeat: no-repeat }
+		th.desc .sort-button { background-position: -252px -712px; background-repeat: no-repeat }
+	
+	tr.group th { background: #999999; color: #ffffff; border: 1px solid #a3a3a3; text-align: left; cursor: pointer }
+		tr.group th a.icon { width: 16px; height: 16px; float: right; background: url('/static/images/site_01/site_01/uklo/map-buttons.png') no-repeat }
+			tr.group.open th a.icon { background-position: -252px -648px }
+			tr.group.closed th a.icon { background-position: -252px -664px }
+/* [END] GRID ITEMS ----- */	
+
+/* ----- BUTTONS ----- */
+/*	.buy a,.start a,.free a,.info a,.preview a,.select a { width: 28px; height: 28px; background: url('/static/images/site_01/uklo/map-buttons.png') 0 0 no-repeat; display: block; text-indent: -999px; overflow: hidden; margin: 0 auto; outline: 0 }
+
+		
+		.buy a { background-position: -196px -480px }
+		.buy a:hover,.buy a:focus { background-position: -196px -508px }
+		.buy a:active { background-position: -196px -536px }
+		
+		.free a { background-position: -196px -648px; }
+		.free a:hover,.free a:focus { background-position: -196px -676px; }
+		.free a:active { background-position: -196px -704px; }
+		
+		.start a { background-position: -224px -648px; }
+		.start a:hover,.start a:focus { background-position: -224px -676px; }
+		.start a:active { background-position: -224px -704px; }
+		
+		.info a { background-position: 0 -648px; cursor: pointer;  }
+		.info a:hover,.info a:focus { background-position: 0 -676px }
+		.info a:active { background-position: 0 -704px }
+		
+		.preview a { background-position: -28px -480px }
+		.preview a:hover,.preview a:focus { background-position: -28px -508px }
+		.preview a:active { background-position: -28px -536px }
+		
+		.select a { background-position: 0 -480px }
+		.select a:hover,.select a:focus { background-position: 0 -508px }
+		.select a:active { background-position: 0 -536px }
+*/
+/* [END] BUTTONS ----- */
+
+/* ----- SERVICE LEVEL DESCRIPTION ----- */
+	#serviceleveldescription { padding: 10px 10px 0; margin-bottom: 10px; background: #ededed; border: 1px solid #cccccc; }
+/* [END] SERVICE LEVEL DESCRIPTION ----- */
+
+/* ----- SERVICES SIDEBAR ----- */
+	#services .service { padding-left: 48px; margin-left: -50px }
+		#willdocument-service { background: url('/static/images/site_01/uklo/phone-icon.png') 0 0 no-repeat }
+		#phoneadvice-service { background: url('/static/images/site_01/uklo/phone-icon.png') 0 0 no-repeat }
+		#emailadvice-service  { background: url('/static/images/site_01/uklo/email-icon.png') 0 0 no-repeat }
+	#services .service h6 { height: 84px; line-height: 80px; padding-left: 42px }
+/* [END] SERVICES SIDEBAR ----- */
+
+/* ----- SECURITY ITEMS ----- */
+	#secure { margin: 0 0 1.25em; text-align: center }
+		#secure a { margin-right: 8px }
+		#secure img { display: inline-block }
+
+	#card-secure { float: right }
+		
+	#security { text-align: center }
+/* [END] SECURITY ITEMS ----- */
+
+/* ----- COLUMN WIDTHS ----- */
+	#document-groups .info { width: 40px }
+	#document-groups .price { text-align: center; width: 80px; font-weight: bold; }
+	#document-groups .buy { width: 40px }
+	#document-groups .select { width: 40px }
+	
+	/* admin area */
+	#review-grid .name { text-align: left }
+	#review-grid .action { width: 120px }
+	#review-grid .user { width: 140px }
+	#review-grid .submitted { width: 7em; text-align:center; }
+	#review-grid .completed { width: 7em; text-align:center; }
+	
+	#packages-grid .offered { text-align: center; width: 120px }
+	#packages-grid .name { }
+	#packages-grid .price { text-align: center; width: 140px }
+	#packages-grid .price input { width: 120px }
+	#packages-grid .free { text-align: center; width: 120px }
+	
+	#otherservices-grid .offered { text-align: center; width: 120px }
+	#otherservices-grid .name { }
+	#otherservices-grid .price { text-align: center; width: 140px }
+	#otherservices-grid .price input { width: 120px }
+	
+	#advice-grid .reference { width: 110px; }
+	#advice-grid .user { }
+	#advice-grid .purchased { width: 7em; text-align:center; }
+	#advice-grid .number { width: 110px; }
+	#advice-grid .subject { }
+	#advice-grid .action { width: 60px; }
+		
+	#purchase-table th { width: 240px; text-align: right }
+
+	#services .price { font-weight: bold; }
+
+	#clientsearch-grid .status { width: 60px; }
+	#clientsearch-grid .username { width: 80px; }
+	
+	#comms-grid .date { width: 70px; }
+	
+	table.calls .reference { text-align: left; }
+	table.calls .purchased { text-align: center; width: 200px; }
+	table.calls .status { text-align: center; width: 160px; }
+
+	table.clients .last,
+	table.clients .first,
+	table.clients .email { text-align: left; }
+	table.clients .username,
+	table.clients .status { text-align: center; }
+	table.clients .action { width: 180px; }
+
+/* [END] COLUMN WIDTHS ----- */
+
+/* ----- ADMIN NAVIGATION ----- */
+	#adminnav-panel { margin-top: -20px }
+	
+		#adminnav-panel .links { margin: 0 }
+		#adminnav-panel .link { background: #ffffff url('/static/images/site_01/uklo/map-buttons.png') no-repeat; height: 48px; display: block }
+		#adminnav-panel .link a { line-height: 44px; display: block; padding-left: 48px	}
+			
+			#adminnav-panel .links > .review { background-position: 0 0 }
+			#adminnav-panel .links > .advice { background-position: 0 0 }
+			#adminnav-panel .links > .communications { background-position: 0 -48px }
+			#adminnav-panel .links > .store { background-position: 0 -96px }
+			#adminnav-panel .links > .clients { background-position: 0 -144px }
+			#adminnav-panel .links > .quick-register { background-position: 0 -192px }
+			#adminnav-panel .links > .transactions { background-position: 0 -240px }
+			#adminnav-panel .links > .account { background-position: 0 -288px }
+			#adminnav-panel .links > .phone-advice { background-position: 0 -336px }
+			#adminnav-panel .links > .email-advice { background-position: 0 -384px }
+			#adminnav-panel .links > .paymentrequests { background-position: 0 -432px; }
+			
+			#adminnav-panel .links > .selected.review { background-position: -258px 0 }
+			#adminnav-panel .links > .selected.advice { background-position: -258px 0 }
+			#adminnav-panel .links > .selected.communications { background-position: -258px -48px }
+			#adminnav-panel .links > .selected.store { background-position: -258px -96px }
+			#adminnav-panel .links > .selected.clients { background-position: -258px -144px }
+			#adminnav-panel .links > .selected.quick-register { background-position: -258px -192px }
+			#adminnav-panel .links > .selected.transactions { background-position: -258px -240px }
+			#adminnav-panel .links > .selected.account { background-position: -258px -288px }
+			#adminnav-panel .links > .selected.phone-advice { background-position: -258px -336px }
+			#adminnav-panel .links > .selected.email-advice { background-position: -258px -384px }
+			#adminnav-panel .links > .selected.paymentrequests { background-position: -258px -432px; }
+/* [END] ADMIN NAVIGATION ----- */
+
+/* ----- ADMIN GRID TABS ----- */
+	.tabs { float: right; list-style: none; margin: 0; padding: 0 }
+		.tab { float: left; background: #a3a3a3; border: 1px solid #a3a3a3; border-bottom: 0; margin: 0 2px; padding: 4px }
+		.tabs .selected { background: #e4e4e4 }
+		.tab a { color: #000000 }
+/* [END] ADMIN GRID TAGS ----- */
+
+/* ----- ADMIN GRID BUTTONS ----- */
+	.controls .document-preview, .controls .document-complete, .controls .document-incomplete, .controls .document-export, .controls .document-upload, .controls .document-reopen,
+	.controls .client-details, .controls .client-active, .controls .client-inactive,
+	.controls .transaction-view, .controls .transaction-refund,
+	.controls .phone-notes, .controls .phone-complete, .controls .phone-incomplete,
+	.controls .email-open, .controls .email-complete, .controls .email-incomplete,
+	.controls .comms-view, .controls .comms-create,
+	.controls .questionnaire-add,
+	.controls .password-view,
+	.controls .document-rename	{ width: 28px; float: left; overflow: hidden; cursor: pointer; text-indent: -999px; margin: 2px 2px 0 0; text-align: left }
+	
+	.controls .document-preview a, .controls .document-complete a, .controls .document-incomplete a, .controls .document-export a, .controls .document-upload a, .controls .document-reopen a,
+	.controls .client-details a, .controls .client-active a, .controls .client-inactive a,
+	.controls .transaction-view a, .controls .transaction-refund a,
+	.controls .phone-notes a, .controls .phone-complete a, .controls .phone-incomplete a,
+	.controls .email-open a, .controls .email-complete a, .controls .email-incomplete a,
+	.controls .comms-view a, .controls .comms-create a,
+	.controls .questionnaire-add a,
+	.controls .password-view a,
+	.controls .document-rename a { height: 28px; display: block; background: url('/static/images/site_01/uklo/map-buttons.png') no-repeat }
+
+		.controls .document-preview a { background-position: -28px -480px }
+		.controls .document-preview a:hover,
+		.controls .document-preview a:focus { background-position: -28px -508px }
+		.controls .document-preview a:active { background-position: -28px -536px }
+		
+		.controls .document-complete a { background-position: -56px -480px }
+		.controls .document-complete a:hover,
+		.controls .document-complete a:focus { background-position: -56px -508px }
+		.controls .document-complete a:active { background-position: -56px -536px }
+		
+		.controls .document-incomplete a { background-position: -84px -480px }
+		.controls .document-incomplete a:hover,
+		.controls .document-incomplete a:focus { background-position: -84px -508px }
+		.controls .document-incomplete a:active { background-position: -84px -536px }
+	
+		.controls .document-export a { background-position: -112px -480px }
+		.controls .document-export a:hover,
+		.controls .document-export a:focus { background-position: -112px -508px }
+		.controls .document-export a:active { background-position: -112px -536px }
+		
+		.controls .document-upload a { background-position: -140px -480px }
+		.controls .document-upload a:hover,
+		.controls .document-upload a:focus { background-position: -140px -508px }
+		.controls .document-upload a:active { background-position: -140px -536px }
+	
+		.controls .document-reopen a { background-position: -168px -480px }
+		.controls .document-reopen a:hover,
+		.controls .document-reopen a:focus { background-position: -168px -508px }
+		.controls .document-reopen a:active { background-position: -168px -536px }
+		
+		.controls .client-details a { background-position: -224px -480px }
+		.controls .client-details a:hover,
+		.controls .client-details a:focus { background-position: -224px -508px }
+		.controls .client-details a:active { background-position: -224px -536px }
+		
+		.controls .client-active a { background-position: -252px -480px }
+		.controls .client-active a:hover,
+		.controls .client-active a:focus { background-position: -252px -508px }
+		.controls .client-active a:active { background-position: -252px -536px }
+		
+		.controls .client-inactive a { background-position: -280px -480px }
+		.controls .client-inactive a:hover,
+		.controls .client-inactive a:focus { background-position: -280px -508px }
+		.controls .client-inactive a:active { background-position: -280px -536px }
+	
+		.controls .phone-notes a { background-position: 0 -564px }
+		.controls .phone-notes a:hover,
+		.controls .phone-notes a:focus { background-position: 0 -592px }
+		.controls .phone-notes a:active { background-position: 0 -620px }
+		
+		.controls .phone-complete a { background-position: -28px -564px }
+		.controls .phone-complete a:hover,
+		.controls .phone-complete a:focus { background-position: -28px -592px }
+		.controls .phone-complete a:active { background-position: -28px -620px }
+		
+		.controls .phone-incomplete a { background-position: -56px -564px }
+		.controls .phone-incomplete a:hover,
+		.controls .phone-incomplete a:focus { background-position: -56px -592px }
+		.controls .phone-incomplete a:active { background-position: -56px -620px }
+		
+		.controls .email-open a { background-position: -84px -564px }
+		.controls .email-open a:hover,
+		.controls .email-open a:focus { background-position: -84px -592px }
+		.controls .email-open a:active { background-position: -84px -620px }
+	
+		.controls .email-complete a { background-position: -112px -564px }
+		.controls .email-complete a:hover,
+		.controls .email-complete a:focus { background-position: -112px -592px }
+		.controls .email-complete a:active { background-position: -112px -620px }
+		
+		.controls .email-incomplete a { background-position: -140px -564px }
+		.controls .email-incomplete a:hover,
+		.controls .email-incomplete a:focus { background-position: -140px -592px }
+		.controls .email-incomplete a:active { background-position: -140px -620px }
+	
+		.controls .comms-view a { background-position: -168px -564px }
+		.controls .comms-view a:hover,
+		.controls .comms-view a:focus { background-position: -168px -592px }
+		.controls .comms-view a:active { background-position: -168px -620px }
+		
+		.controls .comms-create a { background-position: -196px -564px }
+		.controls .comms-create a:hover,
+		.controls .comms-create a:focus { background-position: -196px -592px }
+		.controls .comms-create a:active { background-position: -196px -620px }
+		
+		.controls .questionnaire-add a { background-position: -224px -564px }
+		.controls .questionnaire-add a:hover,
+		.controls .questionnaire-add a:focus { background-position: -224px -592px }
+		.controls .questionnaire-add a:active { background-position: -224px -620px }
+	
+		.controls .password-view a { background-position: -252px -564px }
+		.controls .password-view a:hover,
+		.controls .password-view a:focus { background-position: -252px -592px }
+		.controls .password-view a:active { background-position: -252px -620px }
+
+		.controls .login-set a { background-position: -280px -564px }
+		.controls .login-set a:hover,
+		.controls .login-set a:focus { background-position: -280px -592px }
+		.controls .login-set a:active { background-position: -280px -620px }
+	
+		.controls .transaction-view a { background-position: -84px -648px }
+		.controls .transaction-view a:hover,
+		.controls .transaction-view a:focus { background-position: -84px -676px }
+		.controls .transaction-view a:active { background-position: -84px -704px }
+		
+		.controls .transaction-refund a { background-position: -112px -648px }
+		.controls .transaction-refund a:hover,
+		.controls .transaction-refund a:focus { background-position: -112px -676px }
+		.controls .transaction-refund a:active { background-position: -112px -704px }
+	
+		.controls .option-remove a { background-position: -28px -648px }
+		.controls .option-remove a:hover,
+		.controls .option-remove a:focus { background-position: -28px -676px }
+		.controls .option-remove a:active { background-position: -28px -704px }
+		
+		.controls .subject-matter a { background-position: -140px -648px }
+		.controls .subject-matter a:hover,
+		.controls .subject-matter a:focus { background-position: -140px -676px }
+		.controls .subject-matter a:active { background-position: -140px -704px }
+		
+		.controls .document-rename a { background-position: -168px -648px }
+		.controls .document-rename a:hover,
+		.controls .document-rename a:focus { background-position: -168px -676px }
+		.controls .document-rename a:active { background-position: -168px -704px }
+		
+/* [END] ADMIN GRID BUTTONS ----- */
+
+/* ----- ADMIN KEY ----- */
+	table.key { float: right; width: 240px; margin: 0 0 1.25em 1.25em }
+		.key .icon { width: 28px; height: 28px; background: url('/static/images/site_01/uklo/map-buttons.png') 0 0 no-repeat }
+		.key .document-preview .icon { background-position: -28px -480px }
+		.key .document-complete .icon { background-position: -56px -480px }
+		.key .document-incomplete .icon { background-position: -84px -480px }	
+		.key .document-export .icon { background-position: -112px -480px }	
+		.key .document-upload .icon { background-position: -140px -480px }
+		.key .document-reopen .icon { background-position: -168px -480px }	
+		.key .client-details .icon { background-position: -224px -480px }
+		.key .client-active .icon { background-position: -252px -480px }
+		.key .client-inactive .icon { background-position: -280px -480px }
+		.key .phone-notes .icon { background-position: 0 -564px }
+		.key .phone-complete .icon { background-position: -28px -564px }
+		.key .phone-incomplete .icon { background-position: -56px -564px }
+		.key .email-open .icon { background-position: -84px -564px }
+		.key .email-complete .icon { background-position: -112px -564px }
+		.key .email-incomplete .icon { background-position: -140px -564px }
+		.key .comms-view .icon { background-position: -168px -564px }
+		.key .comms-create .icon { background-position: -196px -564px }
+		.key .questionnaire-add .icon { background-position: -224px -564px }
+		.key .password-view .icon { background-position: -252px -564px }
+		.key .login-set .icon { background-position: -280px -564px }
+		.key .transaction-view .icon { background-position: -84px -648px }
+		.key .transaction-refund .icon { background-position: -112px -648px }
+		.key .option-remove .icon { background-position: -28px -648px }
+		.key .subject-matter .icon { background-position: -140px -648px }
+		.key .document-rename .icon { background-position: -168px -648px }
+/* [END] ADMIN KEY ----- */
+	
+/* ----- ADMIN ICONS ----- */
+	.admin a.button{display:block; line-height:28px; padding-right:8px; }
+	.admin a.button:hover { background-color: #cccccc }
+	.admin a.button:active { background-color: #666666 }
+	.icon{ float:left; width:28px; height:28px; margin-right: 4px; overflow:hidden; background: url('/static/images/site_01/uklo/map-buttons.png') 0 0 no-repeat; }
+	.communication-add-icon{ background-position:-196px -564px; }
+	.client-add-icon{ background-position:-224px -480px; }
+/* [END] ADMIN ICONS ----- */
+
+/* thinner admin */
+
+/* -------------------- //
+ * Datepicker 
+ */
+	.ui-datepicker {
+		background:#FFFFFF;
+		padding:10px;
+	}
+	.ui-datepicker tr:hover { background:transparent; }
+	.ui-datepicker td {
+		border:transparent;
+		text-align:center;
+	}
+	.ui-datepicker td a {
+		display:block;
+		width:20px;
+	}
+	.ui-datepicker .ui-datepicker-prev,
+	.ui-datepicker .ui-datepicker-next {
+		position:absolute;
+		top:10px;
+		cursor:pointer;
+	}
+	.ui-datepicker .ui-datepicker-prev { left:10px; }
+	.ui-datepicker .ui-datepicker-next { right:10px; }
+	.ui-datepicker .ui-datepicker-title { text-align:center; }
+
+
+/* -------------------- //
+ * Filter 
+ */
+	.ui-filter {
+		position:relative;
+		margin-top:32px;
+	}
+	.ui-filter .fld {
+		display:inline-block;
+		margin-right:10px;
+	}
+	.ui-filter .fld span { margin-right:5px; }
+	.ui-filter div.fld { margin-right:5px; }
+	.ui-filter div.fld input { margin-right:5px; }
+	.ui-filter div.fld span { margin:0; }
+	.ui-filter div.fld label span { margin-right:5px; }
+	.ui-filter .btn-advanced {
+		position:absolute;
+		top:10px;
+		right:10px;
+	}
+	.ui-filter .advanced {
+		display:block;
+		margin-top:10px;
+		position:relative;
+		padding-right:60px;
+	}
+	.ui-filter .advanced .fld { margin-top:10px; }
+	.ui-filter .advanced .btn-clear-filter {
+		position:absolute;
+		top:10px;
+		right:10px;
+	}
+	.ui-filter .btn { display:inline-block; }
+	#main-panel .ui-filter form {
+		max-width:none;
+		display:block;
+		margin:0;
+		padding:10px;
+	}
+/* -------------------- //
+ * Count
+ */
+	.ui-count { margin:10px; }
+	
+/* -------------------- //
+ * Pagination
+ */
+	#main-panel .ui-pagination form {
+		background:transparent;
+		border:0;
+		padding:0;
+	}
+	.ui-pagination {
+		float:right;
+		margin:10px;
+	}
+	.ui-pagination ol {
+		display:inline-block;
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+	.ui-pagination a { text-decoration: none; }
+	.ui-pagination .fld { margin-right:10px; }
+	.ui-pagination .fld span { margin-right:5px; }
+	.ui-pagination div div,
+	.ui-pagination li {
+		display: inline-block;
+		padding: 2px;
+		width: 20px;
+		text-align: center;
+		margin-right:1px;
+		cursor:pointer;
+	}
+	.ui-pagination .ui-state-disabled a,
+	.ui-pagination .ui-state-disabled:hover a {
+		cursor:default;
+		color:black;
+	}
+	.ui-pagination .ui-state-selected a,
+	.ui-pagination .ui-state-selected:hover a {
+		cursor:default;
+		color:black;
+		font-weight:bold;
+	}
+	.ui-pagination .ui-state-hidden { display:none; }
+	.ui-state-hidden,#ui-datepicker-div { display:none; }
+
+#content-layout.admin { background: none; }
+#adminnav-panel { width: 180px; }
+#content-layout.admin #main-panel { padding-left: 200px; }
+	
+/* -------------------- EOF -------------------- */

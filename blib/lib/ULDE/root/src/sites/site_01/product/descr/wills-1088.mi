@@ -1,0 +1,14 @@
+<div style="display: none;">
+	<div id="dialog-wills-1088" class="popup-content">
+		<h2>Discretionary Trust Will for married person or civil partner</h2>
+		<p>This Will is suitable for a person who is married or in a civil partnership and wishes to create a discretionary trust for one of the following reasons:</p>
+		<ol>
+			<li>To try and avoid a local authority using a share in the home to cover the cost of long term medical or nursing care for the surviving spouse/civil partner, or</li>
+			<li>To ensure that gifts intended for children/grandchildren from a former relationship are received by them, without the danger of the surviving spouse/civil partner reducing the amount that goes to them.</li>
+		</ol>
+		<p class="odd">In addition, the document will allow you to make as many gifts of money and specific items you would like. You will be able to leave the remainder of your estate after making gifts (i.e. the residuary estate) to as many persons you would like, either in equal shares or in varying percentages. You can also vary how you would like to leave your residuary estate, make provisions for the care of pets and appoint guardians for your children. (Those with spouses/civil partners domiciled outside the UK should note the normal tax-free allowances do not apply, and we recommend tax advice is sought in these cases.)</p>
+		<p>Please note that in order to use this document, your marital home must be worth more than £50,000 after deduction of any mortgage, or your mortgage will be repaid on death by a policy of insurance.</p>
+		<p class="odd">This document is only for use in England & Wales and Northern Ireland.</p>
+		<& /product/descr/descr-buttons.mi, %{$.args} &>
+	</div>
+</div>

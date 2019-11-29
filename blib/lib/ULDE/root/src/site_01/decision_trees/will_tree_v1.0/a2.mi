@@ -1,0 +1,35 @@
+<div style="display: none;">
+	<div id="will-tree-a2" class="popup-content selector">
+
+		<div class="notification ui-state-highlight ui-corner-all">
+			<p class="notification-text"></p>
+		</div>
+
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you intend to reside permanently in England, Wales or Northern Ireland?</p>
+			<& /decision_trees/radio_buttons.mi, q2 => [[qw(yes)],['no','Whilst you are free to proceed with this service we strongly recommend you seek advice from a lawyer in the country where you intend to reside permanently.']] &>
+		</div>
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you own any foreign property?</p>
+			<& /decision_trees/radio_buttons.mi, q3 => [['yes','Foreign property gifted in a Will can cause a number of complications and we strongly advise you to obtain advice from a lawyer in the country where the property is located.'],[qw(no)]] &>
+		</div>		
+		<div class="question ui-state-default ui-corner-all" title="Your residual estate is everything that you own; including property, cash, objects, shares and so on - from which you should deduct everything that you owe; including mortgages, debts, obligations and so on.">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you estimate that the value of your residual estate amounts to more than £1.5 million or do you feel you have particularly complex requirements for your Will?</p>
+			<& /decision_trees/radio_buttons.mi, q4 => [['yes','Whilst you are free to proceed with this service, we strongly recommend that those with complex requirements receive advice and bespoke estate planning. If your estate is worth more than £1.5 million you may wish to speak to a financial adviser or tax specialist about ways of minimising your Inheritance Tax liability. If you would like to be put in touch with one of our partner financial advisors, please call 0845 888 0002.'],[qw(no)]] &>
+		</div>
+		<div class="question ui-state-default ui-corner-all" title="The Inheritance Tax threshold for the 2013-14 tax year is £325,000.">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you own any interest in a business (including intellectual property), or agricultural property, which has a value that could take you over the current inheritance tax free allowance (or – if you have a spouse/civil partner – a value that takes you and your spouse’s/partner’s combined assets to more than twice the current inheritance tax free allowance)?</p>
+			<& /decision_trees/radio_buttons.mi, q5 => [['yes','If you own an interest in a business or agricultural property, this may qualify for business property or agricultural property relief, meaning potentially these assets can be gifted either wholly or partly tax-free. You should make sure you understand the implications of this. If you would like to be put in touch with one of our partner financial advisors, please call 0845 888 0002.'],[qw(no)]] &>
+		</div>
+		<div class="question ui-state-default ui-corner-all" title='A civil partnership is a relationship between two people of the same sex ("civil partners") which is formed when they register as civil partners of each other. It is the same-sex equivalent of marriage under the Civil Partnership Act 2004 and under this legislation the civil partners have equivalent legal rights to spouses.'>
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Are you Married or in a Civil Partnership?</p>
+			<& /decision_trees/radio_buttons.mi, q6 => [[qw(yes #will-tree-b3)],[qw(no #will-tree-b4)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q6_next', prev => 'will-tree-root', info => 'All questions are compulsory', id => 'a2', title => 'UKLO Will Selector' &>
+	</div>
+</div>

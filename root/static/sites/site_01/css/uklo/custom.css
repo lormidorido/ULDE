@@ -1,0 +1,1124 @@
+/* CSS Document */
+
+body {
+	background-image:none !important;
+	background-color:#fff !important;
+}
+
+q {
+	font-style:italic;
+}
+
+#content-layout.slider { padding-top:0 !important; margin-bottom:20px; position:relative; clear:both;  }
+#main-panel.first_page,
+#main-panel.product_page,
+#main-panel.faq_page,
+#main-panel.about_us_page {
+	position:relative;
+/*	border:solid 10px #0000CC; */
+}
+
+.slider-wrapper {
+	position:relative;
+	border-style:solid;
+	border-width:10px 10px 10px 10px;
+	margin-bottom:20px;
+}
+
+.first_page .slider-wrapper {
+	border-color: #71bed2;		
+}
+
+.product_page .slider-wrapper {
+	border-color: #775c30;		
+}
+
+.advice_page .slider-wrapper {
+	border-color: #247293;		
+}
+
+.about_us_page .slider-wrapper {
+	border-color: #d4412a;	
+}
+
+.contact_us_page .slider-wrapper {
+	border-color: #e5c39e;		
+}
+
+#header-layout {
+	position:relative;
+}
+
+#footernav-layout { margin:30px 0 0 0; padding-bottom:10px; }
+
+#slider_01, #slider_02 {
+	height:280px;
+}
+
+.brand-txt {
+	color:#267dc0;	
+}
+
+/* ---- jquery-ui ---- */
+
+.ui-widget {
+	font-family:ubuntu,calibri !important;
+/*	font-size: 1.1em; */
+	font-size:14px;
+}
+
+/* ---- MAIN CONTAINER ---- */
+
+div.container {
+	width: 1058px;
+	background-color:#fff;
+}
+
+#content-layout {
+	width: 1058px;
+	background:#ff;
+}
+
+/* ---- HEADER ---- */
+#header-layout .logo { margin: 20px 0px 0px 25px; float:left; }
+#header-layout .logo img {
+	width: 200px;
+}
+#header-layout .referrer_logo { margin: 20px 30px 0px 0px; float:right; }
+#header-layout .header-right { margin: 30px 30px 0px 0px; float:right; zoom:0.9; }
+#header-layout { padding-bottom: 30px; }
+
+.keyword-search {
+	float: right;
+	background: white url(/static/images/site_01/uklo/icon-search.png) 8px 8px no-repeat;
+	padding-left: 23px;
+	margin:0 !important;
+}
+
+.keyword-search input {
+	background: #d7ebf9;
+	border: none;
+	padding: 6px 4px;
+	width: 200px;
+	color: #2779aa;
+}
+
+.header-right p {
+	clear: right;
+	text-align: right;
+	font-size: 18px;
+	margin: 0;
+	padding: 8px 0 0 0;
+	color: #232263;
+}
+
+.header-right p a {
+	text-decoration:none;
+	color: #232263;
+}
+
+.header-right ul {
+	list-style-type:none;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.header-right ul li {
+	padding:10px 50px 10px 15px;
+	margin:0 !important;
+}
+
+.header-right ul li a {
+	font-size:20px;
+	padding:6px 0 9px 50px;
+}
+
+.header-right ul li a:hover {
+	text-decoration:none;
+	opacity:0.7;
+}
+
+.header-right ul .login {
+	background-color:#ef7432;
+}
+
+.header-right ul .login a {
+	background: url(/static/images/site_01/uklo/icon-key-1.png) left center no-repeat;
+	color:#775c30;
+}
+
+.header-right ul .register {
+	background-color:#247293;
+}
+
+.header-right ul .register a {
+	background: url(/static/images/site_01/uklo/icon-doc-1.png) left center no-repeat;
+	color:#efe9de;	
+}
+
+
+/* ---- MAIN MENU ---- */
+
+#nav-layout {
+/*	margin: 0px 20px 0px 20px; */
+	background:#fff;
+	zoom:0.9;
+}
+
+#nav-layout .link {
+	padding:10px 22px;
+	margin-right:-4px; 
+}
+
+#nav-layout a {
+/*	color:#267dc0; */
+	font-size:20px;
+/*	font-weight:bold; */
+	padding:6px 0 9px 50px;
+}
+
+#nav-layout a:hover {
+	text-decoration:none;
+	opacity:0.7;
+}
+
+#nav-layout .home {
+	background-color:#71bed2;
+}
+
+#nav-layout .home a {
+	background: url(/static/images/site_01/uklo/icon-home-1.png) left center no-repeat;
+	color:#775c30;
+}
+
+#nav-layout .services {
+	background-color:#775c30;
+}
+
+#nav-layout .services a {
+	background: url(/static/images/site_01/uklo/icon-doc-3.png) left center no-repeat;
+	color:#71bed2;
+}
+
+#nav-layout .advice {
+	background-color:#247293;
+}
+
+#nav-layout .advice a {
+	background: url(/static/images/site_01/uklo/icon-advice-2.png) left center no-repeat;
+	color:#efe9de;
+}
+
+#nav-layout .about {
+	background-color:#d4412a;
+}
+
+#nav-layout .about a {
+	background: url(/static/images/site_01/uklo/icon-about-1.png) left center no-repeat;
+	color:#e5c39e;
+}
+
+#nav-layout .contact {
+	background-color:#e5c39e;
+}
+
+#nav-layout .contact a {
+	background: url(/static/images/site_01/uklo/icon-contact-2.png) left center no-repeat;
+	color:#7a4922;
+}
+
+#nav-layout .login {
+	background-color:#ef7432;
+}
+
+#nav-layout .login a {
+	background: url(/static/images/site_01/uklo/icon-key-1.png) left center no-repeat;
+	color:#775c30;
+}
+
+#nav-layout .register {
+	background-color:#247293;
+}
+
+#nav-layout .register a {
+	background: url(/static/images/site_01/uklo/icon-doc-1.png) left center no-repeat;
+	color:#efe9de;	
+}
+
+
+/* ---- PRODUCTS LISTING ---- */
+
+#products {
+/*	margin:0px 20px 20px 20px; */
+/*	padding-top:20px; */
+/*	border-top:1px solid #404145; */
+	margin:0;
+}
+
+#products table {
+	border-color: #267dc0;
+	border-style: solid;
+	border-width: 10px;
+}
+
+#products h3 {
+	color:#fff;
+	background-color:#267dc0;
+	margin:0;
+	padding:10px 0 5px 10px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+#products a {
+	height:40px;
+}
+
+#products .name a {
+	color:#267dc0;
+	font-size:16px;
+	font-weight:normal;
+}
+
+#products .name a:hover {
+	color:#908d91;
+	text-decoration:none;
+}
+
+#products td.price {
+	color:#267dc0;
+	font-weight:bold;
+	font-size:16px;
+}
+
+#products tr.even {
+	background-color:#f2f5f7 !important;
+}
+
+#products tr {
+	border-bottom:none !important;
+}
+
+#products th {
+	background-color:#f2f5f7 !important;
+	color:#232263 !important;
+	border:none;
+}
+
+#products .info a {
+	background: url('/static/images/site_01/uklo/icon-info-1.png') center center no-repeat;
+}
+
+#products .preview a {
+	background: url('/static/images/site_01/uklo/icon-doc-1.png') center center no-repeat;
+}
+
+#products .buy a {
+	background: url('/static/images/site_01/uklo/icon-buy-1.png') center center no-repeat;
+}
+
+#products .info a,
+#products .preview a,
+#products .buy a {
+	display:block;
+	text-indent:-999px;
+	overflow:hidden;
+	margin:0 auto;
+	outline:0;
+	min-width:40px;
+}
+
+/* ---- VIDEO ---- */
+
+.first_page .video {
+	float:right;
+	margin:20px 0 0px 10px;
+/*	border:1px solid #404145 */
+}
+
+.first_page .video a {
+	text-decoration:none;
+}
+
+.first_page .video .title {
+	color:#908d91;
+	text-decoration:none;
+	text-align:center;
+}
+
+/* ----- HEADER TEXT ---- */
+
+#header-layout #header_banner {
+	display:none;
+	position: absolute;
+	top: 20px;
+	left:350px;
+}
+
+#header-layout #header_banner h2 {
+	color:#075e75;
+	font-weight:bold;
+	font-style:italic;
+	text-shadow: 0px 1px 0px #ebe9e3;
+	font-size:16px;
+}
+
+/* ----- BANNER TEXT ---- */
+
+#banner-txt {
+	position: absolute;
+	top:30px;
+	left:50px;
+	z-index:100;
+}
+
+#banner-txt h2 {
+	font-size:28px;
+	color:#232263;
+	margin-bottom:0.3em !important;
+}
+
+#banner-txt a {
+	text-decoration:none;
+	cursor: pointer;
+	color:#908d91 !important;
+}
+
+#banner-txt a:focus {
+	border-width:0 !important;
+}
+
+#banner-affiliate-txt {
+	position:absolute;
+	bottom:0px;
+	z-index:100;
+	padding:15px 10px 15px 10px;
+	opacity:0.8;
+}
+
+.first_page #banner-affiliate-txt {
+	background:#075e75;
+	right:20px;
+}
+
+.product_page #banner-affiliate-txt {
+	background:#f0632f;
+	left:20px;
+}
+
+#banner-affiliate-txt h2 {
+	font-size:26px;
+	color:#fff;
+/*	color:#232263; */
+	font-style:italic;
+	font-weight:normal;
+	text-align:center;
+	margin:0 !important;
+	opacity:1 !important;
+}
+
+/* ----- COLUMN STYLING ----- */
+
+.column {
+	float:left;	
+}
+
+.box-our-service {
+/*	width: 696px; */
+	width:740px;
+	padding-right:10px;
+}
+
+.box-first-time {
+	width: 230px;
+}
+
+.first_page .box-why-will {
+	width:360px;
+}
+
+.box-benefits {
+	width: 308px;
+}
+
+.column h2.main {
+  
+  padding: 10px 15px;
+  position: relative;
+  margin: 0;
+  font-size:20px;
+  font-weight:lighter;
+}
+
+.column h2.main q {
+	font-size:16px;
+}
+
+.box-content img.left {
+	float:left;
+	margin:0px 10px 10px 0;
+}
+
+.box-content img {
+/*	border-color: #267dc0;
+	border-style: solid;
+	border-width: 10px; */
+}
+
+.box-content div.sub-header {
+	color:#267dc0;
+	font-weight:bold;
+}
+
+.column:not(:last-child) h2.main {
+/*  border-top: 5px solid #404145; */
+/*  background: #8c8d91; */
+	width:720px;
+	background-color:#fff !important;
+	color:#000 !important;
+}
+
+.first_page .column:not(:last-child) h2.main {
+	background-color:#71bed2;
+	color:#775c30;
+}
+
+.product_page .column:not(:last-child) h2.main { 
+	background-color:#775c30;
+	color:#71bed2;	
+}
+
+.advice_page .column:not(:last-child) h2.main { 
+	background-color:#247293;
+	color:#efe9de;	
+}
+
+.about_us_page .column:not(:last-child) h2.main { 
+	background-color:#d4412a;
+	color:#e5c39e;	
+}
+
+.contact_us_page .column:not(:last-child) h2.main { 
+	background-color:#e5c39e;
+	color:#7a4922;
+}
+
+
+.column:last-child h2.main {
+/*  border-top: 5px solid #075e75; */
+/*  background: #232263; */
+	height:17px;
+	background-color:#fff !important;
+	color:#000 !important;
+	margin-bottom:10px;
+}
+
+.first_page .column:last-child h2.main { 
+	background-color:#71bed2;
+	color:#775c30;	
+}
+
+.product_page .column:last-child h2.main { 
+	background-color:#775c30;
+	color:#71bed2;	
+}
+
+.advice_page .column:last-child h2.main { 
+	background-color:#247293;
+	color:#efe9de;	
+}
+
+.about_us_page .column:last-child h2.main { 
+	background-color:#d4412a;
+	color:#e5c39e;	
+}
+
+.contact_us_page .column:last-child h2.main { 
+	background-color:#e5c39e;
+	color:#7a4922;
+}
+
+
+.column:last-child h2.main.promo_box_header {
+	background: #f0632f !important;
+}
+
+.column:not(:last-child) h2.main {
+/*    border-right: 1px solid #404145; */
+}
+
+.column h2.main:after {
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  content: '';
+  height: 0;
+  width: 0;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  display:none;
+}
+
+.column:not(:last-child) h2.main:after {
+  border-top-color: #8c8d91;	
+}
+
+.column:last-child h2.main:after {
+  border-top-color: #232263;	
+}
+
+.column:last-child h2.main.promo_box_header:after {
+  border-top-color: #f0632f !important;
+}
+
+.box-content {
+  padding: 10px 15px;
+  min-height: 250px;
+}
+
+.column:not(:last-child) .box-content {
+/*  border-right: 1px solid #404145; */
+}
+
+.first_page .column:not(:last-child) .box-content {
+/*  min-height:650px !important; */
+}
+
+.box-content p:first-of-type, .box-content div.sub-header+p, .box-content div.sub-header+div+p {
+	margin-top: 1.25em;
+}
+.box-content p {
+    text-shadow: 0px 1px 0px #ebe9e3;
+	color:#404145;
+}
+
+.box-content p.odd {
+	color:#908d91 !important;
+}
+
+.box-benefits ul.benefits {
+  margin: 0;
+  padding: 1.25em 0 0 15px;
+}
+
+.box-benefits ul.benefits li {
+  margin-bottom:5px;
+  padding: 10px 0px 10px 50px;
+  list-style: none;
+  float: left;
+  color:#267dc0;
+  font-weight:bold;
+  font-style:italic;
+  font-size: 14px;
+  width:210px !important;
+  text-shadow: 0px 1px 0px #ebe9e3;
+}
+
+.first_page .box-benefits ul li.safe {
+  background: url(/static/images/site_01/uklo/icon-doc-2.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.price {
+  background: url(/static/images/site_01/uklo/icon-price-1.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.own-time {
+  background: url(/static/images/site_01/uklo/icon-time-2.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.easy {
+  background: url(/static/images/site_01/uklo/icon-mouse-1.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.checked {
+  background: url(/static/images/site_01/uklo/icon-inspect-1.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.try {
+  background: url(/static/images/site_01/uklo/icon-doc-1.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.software {
+  background: url(/static/images/site_01/uklo/icon-pc-1.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.appointment {
+  background: url(/static/images/site_01/uklo/icon-price-1.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.save {
+  background: url(/static/images/site_01/uklo/icon-folder-1.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.advice {
+  background: url(/static/images/site_01/uklo/icon-communicate-1.png) left center no-repeat;
+}
+
+
+/*
+.first_page .box-benefits ul li.safe {
+  background: url(/static/images/site_01/uklo/icon-ben-safe.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.price {
+  background: url(/static/images/site_01/uklo/icon-ben-affordable.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.own-time {
+  background: url(/static/images/site_01/uklo/icon-ben-legal.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.easy {
+  background: url(/static/images/site_01/uklo/icon-ben-easy.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.checked {
+  background: url(/static/images/site_01/uklo/icon-ben-remote.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.try {
+  background: url(/static/images/site_01/uklo/icon-ben-easy.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.software {
+  background: url(/static/images/site_01/uklo/icon-ben-easy.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.appointment {
+  background: url(/static/images/site_01/uklo/icon-ben-remote.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.save {
+  background: url(/static/images/site_01/uklo/icon-ben-instant.png) left center no-repeat;
+}
+
+.first_page .box-benefits ul li.advice {
+  background: url(/static/images/site_01/uklo/icon-ben-remote.png) left center no-repeat;
+  
+}
+*/
+
+/* ---- PRODUCT LIST ---- */
+
+#products thead tr th.discount {
+	background:#f17347 !important;
+	color:#fff !important;
+}
+
+#products tbody tr td.discount {
+	font-weight:bold;
+	background:#f17347 !important;
+	color:#fff !important;
+	border-left: 1px solid #303F48 !important;
+	border-right: 1px solid #303F48 !important;
+}
+
+/* ---- PROMO BOX ----*/
+.promo {
+	margin:20px 0 20px 0;
+	position: relative;
+	overflow: hidden;
+	float:left;
+	min-height:195px;
+	border-style:solid;
+	border-width:10px;
+}
+
+.first_page .promo {
+	border-color:#71bed2;
+}
+
+.product_page .promo {
+	border-color:#775c30;
+}
+
+.advice_page .promo {
+	border-color:#247293;
+}
+
+.about_us_page .promo {
+	border-color:#d4412a;
+}
+
+.contact_us_page .promo {
+	border-color:#e5c39e;
+}
+
+.promo h2 {
+	background: #fff;
+	display:inline-block;
+	color:#908d91;
+	margin: 0;
+	padding: 10px 15px;
+	position: relative;
+	z-index: 2;
+	font-weight:lighter;
+}
+
+.promo h2.discount {
+	background:#f0632f !important;
+	color:#fff !important;
+}
+
+.promo h2 strong {
+	display:block;
+	color:#267dc0;
+}
+
+.promo h2.discount strong {
+	color:#fff !important;
+}
+
+.promo ul, .promo ol {
+	margin: 1em 10px;
+	padding:0;
+	position:relative;
+	list-style-type:none;
+	display:none;
+}
+
+.promo ul li, .promo ol li {
+	margin: 0;
+	padding: 0;
+	color: #232263;
+}
+
+.promo ul li {
+/*	text-shadow: 0px 1px 0px #ebe9e3;	*/
+}
+
+.promo a {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+
+.promo a:hover h2 strong {
+	color:#908d91 !important;
+	text-decoration:none;
+}
+
+h2+.promo {
+	margin:31px 0 20px 0 !important;
+
+}
+
+.promo-01 {
+	background-image: url(/static/images/site_01/uklo/promo-01.jpg);
+	width:288px;
+}
+
+.promo-02 {
+	background-image: url(/static/images/site_01/uklo/phone-advice.jpg);
+	width:288px;
+}
+
+.promo-03 {
+	background-image: url(/static/images/site_01/uklo/email-advice.jpg);
+	width:288px;
+}
+
+.promo-04 {
+	background-image: url(/static/images/site_01/uklo/affiliate-bg.jpg);
+	width:288px;
+}
+
+/* ---- FOOTER ---- */
+
+#footernav-layout .links li {
+	border-color: #404145 !important;
+	margin-top:5px !important;
+
+}
+
+#footernav-layout .links li a {
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	color: #fff !important;
+}
+/*
+#footernav-layout.first_page .links li a {
+	color:#775c30 !important;
+}
+
+#footernav-layout.product_page .links li a {
+	color:#71bed2 !important;
+}
+
+#footernav-layout.advice_page .links li a {
+	color:#247293 !important;
+}
+
+#footernav-layout.about_us_page .links li a {
+	color:#e5c39e !important;
+}
+
+#footernav-layout.contact_us_page .links li a {
+	color:#e5c39e !important;
+}
+*/
+#footernav-layout {
+	padding:0;
+}
+
+#footer-nav {
+	background-color:#f2f5f7;
+/*	font-weight:bold; */
+/*	padding:10px 0; */
+/*	border-radius:6px;
+	border: 1px solid #dddddd; */
+}
+
+#footer-nav ul {
+	list-style-image:none;
+	padding-left:0;
+	margin:0;
+}
+
+#footer-nav ul li {
+	display:inline-block;
+	text-align:left;
+	font-size:15px;
+/*	width:11%; */
+/*	border-bottom: #404145 1px solid;
+	padding-bottom:3px; */
+	padding:5px 30px;
+/*	border-right: #000 solid 1px; */
+	margin:10px 0;
+}
+
+#footer-nav ul li a {
+	color:#232263;
+	text-decoration:none;
+}
+
+#footer-nav ul li a:hover {
+/*	color:#aaa !important; */
+	color:#000 !important;
+}
+
+#footer-nav ul li:last-child {
+	border:none !important;
+}
+	
+#footer-logo {
+/*	border-top: 1px solid #404145; */
+/*	background-color:#444444; */
+	padding:30px 0 10px 0;
+}
+
+.first_page #footer-logo {
+	background-color:#71bed2;	
+}
+
+.product_page #footer-logo {
+	background-color:#775c30;	
+}
+
+.advice_page #footer-logo {
+	background-color:#247293;	
+}
+
+.about_us_page #footer-logo {
+	background-color:#d4412a;	
+}
+
+.contact_us_page #footer-logo {
+	background-color:#e5c39e;	
+}
+
+#footer-uklo-text {	
+
+/*	background-color:#444444; */
+	font-weight:bold;
+	color:#000 !important;
+	font-size:12px;
+}
+
+.first_page #footer-uklo-text {
+	background-color:#71bed2;
+	color:#775c30;
+}
+
+.product_page #footer-uklo-text {
+	background-color:#775c30;
+	color:#71bed2;
+}
+
+.advice_page #footer-uklo-text {
+	background-color:#247293;
+	color:#efe9de;
+}
+
+.about_us_page #footer-uklo-text {
+	background-color:#d4412a;
+	color:#e5c39e;
+}
+
+.contact_us_page #footer-uklo-text {
+	background-color:#e5c39e;
+	color:#7a4922;
+}
+
+#footernav-layout .links {
+	padding-bottom:5px;
+	margin:0 !important;
+/*	background-color:#444444; */
+}
+
+#footernav-layout.first_page .links {
+	background-color:#71bed2;
+}
+
+#footernav-layout.product_page .links {
+	background-color:#775c30;
+}
+
+#footernav-layout.advice_page .links {
+	background-color:#247293;
+}
+
+#footernav-layout.about_us_page .links {
+	background-color:#d4412a;
+}
+
+#footernav-layout.contact_us_page .links {
+	background-color:#e5c39e;
+}
+
+/* ---- POP UPs ---- */
+
+.popup-content :not(.control-bar) p {
+	color:#404145;
+}
+
+.popup-content p.odd {
+	color:#075e75 !important;
+}
+
+.popup-content h2 {
+	color:#232263;
+}
+
+.descr-buttons {
+	text-align:center;
+}
+
+.descr-buttons a {
+	margin:0 50px;
+}
+
+.ui-tooltip {
+	color:#ef7432;
+	border-color:#ef7432;
+	background-color:#fff;
+}
+
+/* ---- WILL SELECTOR ---- */
+
+.selector .question,
+.selector .message {
+	display:table;
+	padding:5px 5px 5px 5px;
+	width:470px;
+	margin:10px 0;
+}
+
+.selector {
+/*	overflow:hidden; */
+}
+
+.selector .question .q-icon {
+	display: table-cell;
+	vertical-align:middle;
+	margin-bottom:2px;
+	display:none;
+}
+
+.selector .question p,
+.selector .message p {
+	margin:0 15px 0 0;;
+	width:364px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-right:10px;
+}
+
+.selector .question .radio {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*
+.selector #info_accordion {
+	margin-top:8px;
+	float:right; 
+	width:209px;
+	overflow:hidden !important;
+}
+
+.selector .ui-accordion-content {
+	padding:5px !important;
+	max-height:160px !important;
+}
+*/
+.selector .notification {
+	float:right;
+	width:200px;
+	padding:8px;
+	visibility:hidden;
+}
+
+.selector .notification p {
+	margin:0;
+}
+
+.selector .control-bar {
+	display:table;
+	padding:5px;
+	width:470px;
+	margin-top:20px;
+}
+
+.selector .control-bar p {
+	margin:0 !important;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.selector .control-bar .ui-icon,
+.selector .notification .ui-icon {
+	float:left;
+	margin-right:.3em;
+}
+
+.selector .control-bar a {
+	width:80px;
+}
+
+.selector .control-bar .button-set {
+	float:right;
+	display: table-cell;	
+}
+
+/* TEMP HACK ONLY */
+.selector .ui-state-highlight {
+	border: 1px solid #fcefa1 !important;
+	background: #fbf9ee url(/themeroller/images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x !important;
+	color: #363636 !important;
+}
+.selector .ui-state-error {
+border: 1px solid #cd0a0a !important;
+background: #fef1ec url(/themeroller/images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x !important;
+color: #cd0a0a !important;
+}
+
+.selector .ui-state-default {
+	font-weight:normal !important;
+}
+.selector .ui-state-green {
+	border: 1px solid #8cce3b !important;
+	background: #f1fbe5 url(http://download.jqueryui.com/themeroller/images/ui-bg_glass_55_f1fbe5_1x400.png) 50% 50% repeat-x !important;
+	color: #030303 !important;
+}

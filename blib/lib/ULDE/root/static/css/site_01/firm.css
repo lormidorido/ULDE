@@ -1,0 +1,40 @@
+/* CSS Document */
+
+body	{
+background-color:#09A3D5;
+background-image:url('/static/images/site_01/body_bk_01.jpg');
+background-position: left top;
+background-repeat:repeat-x;
+width:1024px;
+margin: 0 auto;
+font-family: ubuntu,calibri ;
+font-size: 14px;
+	}
+
+body.popup { background: none; }
+body.popup #content-layout.layout { width: 650px; }
+	
+.container { background: url('/static/images/site_01/body_bk_02.png');
+width: 1024px;
+padding-left: 17px;
+padding-right: 17px;}
+#header-layout .logo { margin: 20px 0px 0px 20px; } 	
+#header-layout { padding-bottom: 10px; }
+#nav-layout { margin: 0px 20px 0px 20px; }
+#nav-layout .links { left: 0px; } 
+
+#content-layout { width: 1024px; background:#FFFFFF; }
+#content-layout.two { }
+
+#firmintrotext { font-size: 25px; color: black; padding-top:10px; }
+#side-panel { padding:5px 8px 0; }
+
+#adminnav-panel { padding-top:20px; }
+#content-layout.admin #main-panel { margin-right: 20px; }
+#content-layout.admin  { margin-left: 20px; }
+
+#footernav-layout { border: 0 none; }
+
+.control input { background-color: #09A3D5; border-color: #808185; padding: 5px; }
+.control input:hover { background-color: #8BD6EB; border-color: #808185; padding: 5px; }
+.control input:active { background-color: #8BD6EB; border-color: #808185; padding: 5px; }

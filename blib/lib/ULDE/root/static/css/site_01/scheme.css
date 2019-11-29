@@ -1,0 +1,61 @@
+/* ----------------------------------------------------------------- */
+/* -------------------- SCHEME CSS (BusbyJones) -------------------- */
+/* ----------------------------------------------------------------- */
+
+/* Created: 2009-09-16 11:52:37 SW
+ * Updated: 2009-10-29 08:32:48 SW
+ * 
+ * Description:
+ * -----------
+ * Colour scheme file
+ */
+body { background-color: #CCCCCC; }
+#header-layout { background-color: #FFFFFF; }
+thead tr th,#nav-layout .link a,.tab a { color: #ffffff; }
+
+/* ----- IMAGES ----- */
+	#nav-layout,#nav-layout .links,#nav-layout .link a { background-image: url('/static/images/site_01/map-navigation.png') }
+	#content-layout { background-image: url('../uklo/sidebar-bg.png') }
+	
+	th .sort-button,.key .icon,tr.group th a.icon,
+	.controls .document-preview a, .controls .document-complete a, .controls .document-incomplete a, .controls .document-export a, .controls .document-upload a, .controls .document-reopen a,
+	.controls .client-details a, .controls .client-active a, .controls .client-inactive a,
+	.controls .transaction-view a, .controls .transaction-refund a,
+	.controls .phone-notes a, .controls .phone-complete a, .controls .phone-incomplete a,
+	.controls .email-open a, .controls .email-complete a, .controls .email-incomplete a,
+	.controls .comms-view a, .controls .comms-create a,
+	.controls .questionnaire-add a,
+	.controls .delete a,
+	.controls .document-rename a,
+	.controls .password-view a,	.controls .login-set a,
+	.controls .transaction-view a, .controls .transaction-refund a,
+	.controls .option-remove a,
+	.controls .subject-matter a,
+	#adminnav-panel .link,		
+	.buy a,.info a,.preview a,.select a,.control input,.free a,.start a { background-image: url('/static/images/site_01/map-buttons.png') }
+	
+	#phoneadvice-service { background-image: url('/static/images/site_01/phone-icon.png') }
+	#emailadvice-service { background-image: url('/static/images/site_01/email-icon.png') }
+/* [END] IMAGES ----- */
+
+/* ----- COLOURS ----- */
+	tr.pagination th,tr.filter th,.tabs .selected { background-color: #4C80AD /* D:2 */ }
+	
+	table,thead tr th,tbody tr,tbody tr td,tr.group th,#footernav-layout,.tab { border-color: #303F48; color: black; /* F:2 */ }
+	.tab { background-color: #A4B9C9 /* F:2 */ }
+	
+	thead tr.filter th input,a { color: black; text-decoration: underline; /* C:1 */ }
+	#footernav-layout .links li { border-color: #00AFD2 /* C:1 */ }
+	.control input { background-color: #004184 /* C:1 */; border-color: #ffffff /* D:1 */ }
+		.control input:hover { background-color: #00AFD2 /* A:1 */ }
+		.control input:active { background-color: #00AFD2 /* D:1 */ }
+	
+	tr.filter th input.blank-filter { color: #435D7C /* E:2 */ }
+	thead tr th { background-color: #E9E9E9; color:black; /* E:2 */ }
+	#main-panel form, #serviceleveldescription, tbody tr.even { background-color: #E9E9E9 /* A:2 */ }
+	tr.group th { background-color: #e5e5e5 /* C:1 */ }
+	.control input,tr.group th { color: #black /* A:3 */ }
+	#main-panel form, #serviceleveldescription { border: 1px solid #1C2734; /* E:2 */ }
+/* [END] COLOURS ----- */
+
+/* -------------------- EOF -------------------- */

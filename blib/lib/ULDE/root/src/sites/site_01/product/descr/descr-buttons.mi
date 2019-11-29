@@ -1,0 +1,4 @@
+<div class="descr-buttons" style="height:31px;">
+	<a class="ui-button" href="https://www.clientspace.org/register.asp?firm=EAC0C656&purchase=<% $.args->{template_id} %>" title="Click to buy">Purchase this Will</a>
+	<a class="ui-button" href="https://www.clientspace.org/r45/assembler.asp?action=p&firm=EAC0C656&id=<% $.args->{template_id} %>" title="Click to try">Try before you buy</a>
+</div>

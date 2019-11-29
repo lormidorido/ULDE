@@ -1,0 +1,13 @@
+<div style="display: none;">
+	<div id="will-tree-c6" class="popup-content selector">
+		<div class="notification ui-state-highlight ui-corner-all show">
+			<p class="notification-text"><span class="ui-icon ui-icon-info"></span>Please note that in order to use one of our Discretionary Trust Wills, your marital home must be worth more than £50,000 either after deduction of any mortgage or after your mortgage is repaid on death by a policy of insurance. Those with spouses/civil partners domiciled outside the UK should note the normal tax-free allowances do not apply, and we recommend tax advice is sought in these cases.</p>
+		</div>
+		<div class="question ui-state-default ui-corner-all" title="Examples of when a Discretionary Trust Will might be appropriate are: (1) To try and avoid a local authority using a share in the home to cover the cost of long term medical or nursing care for the surviving spouse/civil partner, or (2) To ensure that gifts intended for children/grandchildren from a former relationship are received by them, without the danger of the surviving spouse/civil partner reducing the amount that goes to them. As with our standard Wills, this document will still allow you to make as many gifts of money and specific items you would like and to leave the remainder of your estate to as many persons you would like, to appoint guardians for your children and so on.">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you require a Will which includes a Discretionary Trust?</p>
+			<& /decision_trees/radio_buttons.mi, q9 => [[qw(yes #dialog-wills-1088)],[qw(no #will-tree-d12)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q9_next', prev => 'will-tree-b3', info => 'Please answer the above question to proceed', title => 'UKLO Will Selector' &>
+	</div>
+</div>

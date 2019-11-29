@@ -1,0 +1,30 @@
+<div style="display: none;">
+	<div id="will-tree-root" class="popup-content selector">
+
+		<div class="notification ui-state-highlight ui-corner-all">
+			<p class="notification-text"></p>
+		</div>
+
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you intend to resides permanently in the United Kingdom?</p>
+			<& /decision_trees/radio_buttons.mi, q1 => [[qw(yes)],['no', 'Whilst you are free to proceed with this service we strongly recommend you seek advice from a lawyer in the country where you intend to reside permanently or are domiciled.']] &>
+		</div>
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you feel you have particularly complex requirements for your Will or do you estimate that the value of your estate amounts to more than £1.5 million?</p>
+			<& /decision_trees/radio_buttons.mi, q2 => [['yes','Whilst you are free to proceed with this service, we strongly recommend that those with complex requirements receive advice and bespoke estate planning. If your estate is worth more than £1.5 million you may wish to speak to a financial adviser or tax specialist about ways of minimising your Inheritance Tax liability.'],[qw(no)]] &>
+		</div>
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you own any foreign property?</p>
+			<& /decision_trees/radio_buttons.mi, q3 => [['yes','Foreign property gifted in a Will can cause a number of complications, and we strongly advise you to obtain advice from a lawyer in the country where the property is located.'],[qw(no)]] &>
+		</div>		
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Are you married or in a civil partnership?</p>
+			<& /decision_trees/radio_buttons.mi, q4 => [[qw(yes #will-tree-a1)],[qw(no #will-tree-a2)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q4_next', info => 'All questions are compulsory', id => 'root' &>
+	</div>
+</div>

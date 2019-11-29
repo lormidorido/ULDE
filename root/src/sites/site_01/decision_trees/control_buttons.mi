@@ -1,0 +1,13 @@
+<div id="<% $.args->{id} %>" class="control-bar ui-state-highlight ui-corner-all">
+%	if ($.args->{info}) {
+		<p><span class="ui-icon ui-icon-info"></span><% $.args->{info} %></p>
+%	}
+	<div class="button-set">
+%	if ($.args->{prev}) {
+		<a href="#<% $.args->{prev} %>" class="ui-button selector popup back" title="<% $.args->{title} %>">Back</a>
+%	}
+%	if ($.args->{next}) {
+		<a id="<% $.args->{next} %>" class="ui-button selector popup next" title="<% $.args->{title} %>">Next</a>
+%	}
+	</div>
+</div>

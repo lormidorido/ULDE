@@ -1,0 +1,10 @@
+<div style="display: none;">
+	<div id="will-tree-m2" class="popup-content selector">
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you have children from a previous relationship?</p>
+			<& /decision_trees/radio_buttons.mi, q11 => [[qw(yes #dialog-wills-1088)],[qw(no #dialog-wills-833)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q11_next', prev => 'will-tree-f1', info => 'All questions are compulsory' &>
+	</div>
+</div>

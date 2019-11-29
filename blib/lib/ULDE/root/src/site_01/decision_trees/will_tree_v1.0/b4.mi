@@ -1,0 +1,13 @@
+<div style="display: none;">
+	<div id="will-tree-b4" class="popup-content selector">
+		<div class="notification ui-state-highlight ui-corner-all show">
+			<p class="notification-text"><span class="ui-icon ui-icon-info"></span>If you would like advice on the benefits of STEP, it is recommended that you use one of our advice services (<a class="phone_advice_link">phone advice</a> or <a class="email_advice_link">email advice</a>).</p>
+		</div>
+		<div class="question ui-state-default ui-corner-all" title="STEP provisions are a set of standard clauses developed by The Society of Trust and Estate Practitioners; a society for specialists in trusts, probate and wills. The STEP Standard Provisions define specific aspects of the executors’ powers and responsibilities during the probate process and their powers (as trustees) in the event that trusts need to be set up.">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you require a Will which includes STEP provisions?</p>
+			<& /decision_trees/radio_buttons.mi, q8 => [[qw(yes #dialog-wills-1445)],[qw(no #dialog-wills-834)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q8_next', prev => 'will-tree-a2', info => 'Please answer the above question to proceed', title => 'UKLO Will Selector' &>
+	</div>
+</div>

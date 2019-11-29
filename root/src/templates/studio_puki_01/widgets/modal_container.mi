@@ -1,0 +1,1 @@
+<div id="modal_<% $.args->{id} %>" class="reveal-modal <% join ' ', @{$.args->{class}} %>" data-reveal aria-labelledby="<% 'modal_label_' . $.args->{id} %>" aria-hidden="true" role="dialog"></div>

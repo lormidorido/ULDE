@@ -1,0 +1,22 @@
+/* ---------------------------------------------------- */
+/* -------------------- GLOBAL CSS -------------------- */
+/* ---------------------------------------------------- */
+
+/* Created: 2009-09-14 11:32:21 SW
+ * Updated: 2009-10-16 08:53:12 SW
+ * 
+ * Description:
+ * -----------
+ * This is an additive to the global.css file to be included
+ * conditionally for IE version 6 and older. This fixes issues
+ * for Internet Explorer.
+ */
+
+body { width: expression(documentElement.clientWidth < 980? '980px' : 'auto') }
+body.popup { width: auto }
+.layout { display: inline-block }
+.link,.control { display: inline }
+table { width: 99% }
+ul, ol { padding-left: 3em; }
+
+/* -------------------- EOF -------------------- */

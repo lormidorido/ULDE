@@ -1,0 +1,75 @@
+/* ---------------------------------------------------- */
+/* -------------------- GLOBAL CSS -------------------- */
+/* ---------------------------------------------------- */
+
+/* Created: 2009-08-20 15:53:37 SW
+ * Updated: 2009-10-28 09:35:28 SW
+ * 
+ * Description:
+ * -----------
+ * General direct law styling, this is a static style sheet
+ * that includes the styles common to all themes. Only add
+ * styles to this sheet where the style applies to all themes
+ * across the application.
+ */
+
+/* ----- STANDARD ELEMENTS ----- */
+	body { min-width: 980px; font: 11px/1.25em tahoma,verdana,arial,sans-serif; margin: 0; padding: 0 }
+	h1,h2,h3,h4,h5,h6,li,dd,dt,legend { margin: 0 0 0.5em }
+	p,ul,ol,table,form,.input { margin-top: 0; margin-bottom: 1.25em }
+		h1 { font-size: 1.4em }
+		h2,h3,h5,legend { font-size: 1.2em; font-weight: bold; }
+		h4,h6 { font-size: 1em }
+	a { text-decoration: none }
+		a:hover { text-decoration: underline }
+	img { border: 0; outline: 0 }
+	table { border-collapse: collapse; width: 100% }
+		th { padding: 4px }
+		td { padding: 4px }
+	form { overflow: hidden; display: inline-block }
+		input,textarea { font: 13px/1.25em tahoma,verdana,arial,sans-serif }
+		fieldset { border: 0; padding: 0 }
+		legend,input,textarea { color: #000000 }
+		textarea,iframe { overflow: auto }
+/* [END] STANDARD ELEMENTS ----- */
+
+/* ----- CUSTOM CLASSES ----- */
+	.fields,.controls,.links,.groups { list-style: none; margin: 0; padding: 0 }
+		.control,.link { display: inline-block; margin: 0; padding: 0 }
+	.options { list-style: none; margin: 0 0 1.25em; padding: 0 }
+		.option { margin: 0 0 1.25em }
+	.printable { display: none }
+/* [END] CUSTOM CLASSES ----- */
+
+/* ----- ADMIN GRIDS LAYOUT ----- */
+	.grid {}
+	.filter { padding: 2px 4px }
+		.filter input { width: 100%; margin-left: -2px }
+	.pagination { overflow: hidden }
+		.pagination-limit { float: left }
+		.pagination-page { float: right }
+	.pages { display: inline-block; list-style: none; margin: 0; padding: 0 }
+		.page { display: inline-block; margin-right: 0.25em }
+	.filter-hide,.page-hide,.group-hide { display: none }			
+/* [END] ADMIN GRIDS LAYOUT ----- */			
+
+/* ----- LAYOUT STYLING ----- */	
+	.layout { overflow: hidden }
+	#header-layout {}
+	#nav-layout {}
+	#content-layout { padding-top: 20px }
+		#content-layout.admin #main-panel{ padding-left: 280px; padding-right: 20px }		
+		#content-layout.one #main-panel { padding-left: 20px; padding-right: 20px }
+		#content-layout.two #main-panel { padding-left: 20px; padding-right: 280px }
+	#footernav-layout { text-align: center }
+	#footer-layout { text-align: center }
+		#footer-layout .logo { display: inline-block }
+	#adminnav-panel { float: left; width: 260px }
+	#side-panel { float: right; width: 260px }
+/* [END] LAYOUT STYLING ----- */
+
+/* ----- POPUP STYLING ----- */
+	body.popup { min-width: 0;width: auto;background-color: #ffffff;}
+/* [END] POPUP STYLING ----- */
+
+/* -------------------- EOF -------------------- */

@@ -1,0 +1,10 @@
+<div style="display: none;">
+	<div id="will-tree-f1" class="popup-content selector">
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Are you concerned that, after one of you dies, the surviving spouse/partner is likely to need long-term medical or nursing care which would be paid for by a local authority (i.e. you have insufficient resources to pay for this care yourself)?</p>
+			<& /decision_trees/radio_buttons.mi, q10 => [[qw(yes dialog-wills-1088)],[qw(no #will-tree-m2)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q10_next', prev => 'will-tree-c1', info => 'All questions are compulsory' &>
+	</div>
+</div>

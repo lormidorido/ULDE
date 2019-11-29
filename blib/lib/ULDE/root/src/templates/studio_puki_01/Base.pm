@@ -1,0 +1,1 @@
+# Use to define global methods

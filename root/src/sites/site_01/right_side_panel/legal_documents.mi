@@ -1,0 +1,13 @@
+      <div class="service" id="willdocument-service">
+        <h6>Online Wills</h6>
+        <div class="howitworks">
+            <p>How this service works:</p>
+            <ol>
+<!--              <li><a href="/product/listing">Click here</a> to see the range of availbale online customised Wills.</li> -->
+              <li>Browse our <a href="/product/listing">available Wills</a> and select what you are interested in.</li>
+              <li>Try before you buy and answer the jargon free questionnaire, and watch how our system drafts your Will in real time.</li>
+			  <li>You can save a partially finished Will at any time and come back later continuing where you left it.
+			  <li>If you like what you see, pay a fixed price for the Will and indicate whether you want a member of our legal team to review the finished document and suggest amendments.</li>
+			  <li>Simple as that!</li>
+            </ol>        </div>
+      </div>

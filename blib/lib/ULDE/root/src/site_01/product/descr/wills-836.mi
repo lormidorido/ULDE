@@ -1,0 +1,8 @@
+<div style="display: none;">
+	<div id="dialog-wills-836" class="popup-content">
+		<h2>Letter of wishes</h2>
+		<p>A letter of wishes is an informal letter addressed to your executors which expresses what you would like to happen following your death.</p>
+		<p class="odd">Unlike your Will, the letter of wishes does not become a publicly available document on death. It can be used to assist or guide your executors on pretty much anything you wish. It does not interfere with or restrict the discretion of the executors in any way.</p>
+		<& /product/descr/descr-buttons.mi, %{$.args} &>
+	</div>
+</div>

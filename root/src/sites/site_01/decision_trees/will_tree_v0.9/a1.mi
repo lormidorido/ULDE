@@ -1,0 +1,20 @@
+<div style="display: none;">
+	<div id="will-tree-a1" class="popup-content selector">
+	
+		<div class="notification ui-state-highlight ui-corner-all">
+			<p class="notification-text"></p>
+		</div>
+
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you own any interest in a business (including intellectual property), or agricultural property, which has a value that could take you and your spouse’s/partner’s combined assets to more than twice the current inheritance tax free allowance?</p>
+			<& /decision_trees/radio_buttons.mi, q5 => [['yes','If you own an interest in a business or agricultural property, this may qualify for business property or agricultural property relief, meaning potentially these assets can be gifted either wholly or partly tax-free. You should make sure you understand the implications of this.'],[qw(no)]] &>
+		</div>
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you reside in the United Kingdom?</p>
+			<& /decision_trees/radio_buttons.mi, q6 => [[qw(yes #will-tree-c1)],[qw(no #will-tree-c2)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q6_next', prev => 'will-tree-root', info => 'All questions are compulsory', id => 'a1' &>
+	</div>
+</div>

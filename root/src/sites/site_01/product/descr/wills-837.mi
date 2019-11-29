@@ -1,0 +1,8 @@
+<div style="display: none;">
+	<div id="dialog-wills-837" class="popup-content">
+		<h2>Living Will</h2>
+		<p>Use this document to create a 'Living Will', which is a document that sets out your wishes regarding health care and how you want to be treated if you become seriously ill and unable to make or communicate your own choices.</p>
+		<p class="odd">Your wishes can be either that certain treatment should not be provided in specified circumstances (and these wishes can be binding on medical staff), or that you should be treated or cared for in a particular way (these wishes are not binding on medical staff but should be taken into account).</p>
+		<& /product/descr/descr-buttons.mi, %{$.args} &>
+	</div>
+</div>

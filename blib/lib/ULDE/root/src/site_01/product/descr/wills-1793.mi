@@ -1,0 +1,10 @@
+<div style="display: none;">
+	<div id="dialog-wills-1793" class="popup-content">
+	<h2>Mutual/Mirror Wills for married couples or civil partners</h2>
+	<p>This document creates two Wills for either a married couple or for two people in a civil partnership with each other. The Wills can be created as Mirror Wills or as Mutual Wills.</p>
+		<p class="odd">Mirror Wills are Wills made by two people in substantially the same terms. In these Wills, the married couple/the civil partners provide for each other on the first death, and then say what is to happen on the event of the second death, which is the same in both Wills.</p>
+		<p>Mutual Wills are Mirror Wills, but with one crucial additional feature, which is that Mutual Wills are based on an agreement that neither of the people making the Mutual Wills may later cancel or change their Will without the consent of the other person.</p>
+		<p class="odd">This Will is suitable for use in England & Wales and Northern Ireland.</p>
+		<& /product/descr/descr-buttons.mi, %{$.args} &>
+	</div>
+</div>

@@ -1,0 +1,10 @@
+<div style="display: none;">
+	<div id="will-tree-c1" class="popup-content selector">
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Is your main asset your family home, and do you estimate the value of your home is at least £50,000 more than the mortgage outstanding (or else do you have a life policy that would pay off the mortgage in the event of your death)?</p>
+			<& /decision_trees/radio_buttons.mi, q9 => [[qw(yes #will-tree-f1)],[qw(no #dialog-wills-833)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q9_next', prev => 'will-tree-a1', info => 'All questions are compulsory' &>
+	</div>
+</div>

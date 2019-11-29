@@ -1,0 +1,14 @@
+<& /decision_trees/will_tree_v1.0/root.mi &>
+<& /decision_trees/will_tree_v1.0/a1.mi &>
+<& /decision_trees/will_tree_v1.0/a2.mi &>
+<& /decision_trees/will_tree_v1.0/b3.mi &>
+<& /decision_trees/will_tree_v1.0/b4.mi &>
+<& /decision_trees/will_tree_v1.0/c6.mi &>
+<& /decision_trees/will_tree_v1.0/d12.mi &>
+
+<& /product/descr/wills-834.mi, template_id => '834' &>	
+<& /product/descr/wills-1444.mi, template_id => '1444' &>
+<& /product/descr/wills-1088.mi, template_id => '1088' &>	
+<& /product/descr/wills-833.mi, template_id => '833' &>
+<& /product/descr/wills-1793.mi, template_id => '1793' &>	
+<& /product/descr/wills-1445.mi, template_id => '1445' &>	

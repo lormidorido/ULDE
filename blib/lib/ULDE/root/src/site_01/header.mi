@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>UK Law Online</title>
+	<link rel="icon" type="image/ico" href="/src/site_01/favicon-32x32.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <link href="/static/css/sites/site_01/global.css" rel="stylesheet" type="text/css" />
+	<link href="/static/css/sites/site_01/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+      <link href="/static/css/sites/site_01/global-ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->    
+    <link rel="stylesheet" type="text/css" href="/static/css/sites/site_01/print.css" media="print" />
+    <link href="/static/css/sites/site_01/theme.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+      <link href="/static/css/sites/site_01/theme-ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if lte IE 6]>
+      <link href="/static/css/sites/site_01/scheme-ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="/static/css/sites/site_01/scheme.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/sites/site_01/firm.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/static/js/ext/jquery/jquery-1.9.1.min.js"></script>
+<!--    <script type="text/javascript" src="/static/js/ext/jquery-ui/jquery-ui-1.8.7.custom.min.js"></script> -->
+	<script type="text/javascript" src="/static/js/ext/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="/static/js/ext/plugins/jquery/jquery-validate.1.7.min.js"></script>
+	<script type="text/javascript" src="/static/js/ext/plugins/jquery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/static/js/site_01/site.js"></script>
+	<link href="/static/css/sites/site_01/uklo/custom.css" rel="stylesheet" type="text/css" />
+	
+%	if ($c->req->uri->path eq '/' || 1) {
+	<link rel="stylesheet" href="/static/css/ext/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<!--
+	<link rel="stylesheet" href="/static/css/ext/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/static/css/ext/nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/static/css/ext/nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+-->
+	<link rel="stylesheet" href="/static/css/ext/nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+	
+	<script src="/static/js/ext/plugins/jquery/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+
+	<script src="/static/js/ext/plugins/jquery/jquery.colorbox-min.js" type="text/javascript"></script>
+	<link href="/static/css/ext/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+	
+<!--	
+	<script src="/static/js/ext/plugins/jquery/jquery.bxslider.min.js" type="text/javascript"></script>
+	<link href="/static/css/ext/bxslider/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+-->	
+%	}
+  </head>
+  <body>
+<div class="container">
+
+  <div class="layout" id="header-layout">
+	<div id="header_banner">
+	  <h2>Ten Reasons to make a Will with UK Law Online:</h2>
+	</div>
+    <div class="logo">
+      <a href="/"><img src="/static/images/site_01/uklo/logo_2.png" alt="UK Law Online" /></a>
+    </div>
+%	if ($c->session->{details}->referrer) {	
+	<div class="referrer_logo">
+      <a href="http://safelegal.co.uk" target="_blank"><img src="/static/images/site_01/uklo/sl-logo.png" alt="Safe Legal" /></a>
+    </div>
+%	} else {
+
+	<div class="header-right">
+		<ul>
+<!--
+			<li class="login"><a href="https://www.clientspace.org/members.asp?firm=EAC0C656">Log in</a></li>
+			<li class="register"><a href="https://www.clientspace.org/register.asp?firm=EAC0C656">Register</a></li>
+-->
+		</ul>
+    </div>
+	
+%	}
+  </div>
+  <div class="layout" id="nav-layout" style="display:visible"><ul class="links">
+      <li class="link home"><a href="/">Home</a></li>
+	  <li class="link services"><a href="/product/listing">Online Wills</a></li>
+	  <li class="link advice"><a href="/advice">Legal Advice</a></li>
+<!--
+	  <li class="link login"><a href="https://www.clientspace.org/members.asp?firm=EAC0C656">Log in</a></li>
+	  <li class="link register"><a href="https://www.clientspace.org/register.asp?firm=EAC0C656">Register</a></li>
+-->
+	  <li class="link about"><a href="/about">About Us</a></li>
+<!--      <li class="link logout"><a href="logout.asp?a=1&firm=EAC0C656">Log out</a></li>
+	  <li class="link forgottenlogin"><a href="https://www.clientspace.org/forgot.asp?firm=EAC0C656">Forgotten your login details?</a></li>
+-->
+	  <li class="link contact"><a href="https://www.clientspace.org/support.asp?firm=EAC0C656">Contact Us</a></li>
+<!--	  
+      <li class="link support"><a href="https://www.clientspace.org/support.asp?firm=EAC0C656">Support</a></li>
+-->
+		<li class="link login"><a href="https://www.clientspace.org/members.asp?firm=EAC0C656">Log in</a></li>
+		<li class="link register"><a href="https://www.clientspace.org/register.asp?firm=EAC0C656">Register</a></li>
+
+    </ul>
+  </div>

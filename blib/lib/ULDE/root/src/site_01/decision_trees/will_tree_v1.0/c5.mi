@@ -1,0 +1,10 @@
+<div style="display: none;">
+	<div id="will-tree-c5" class="popup-content selector no-notifications">
+		<div class="question ui-state-default ui-corner-all">
+			<div class="q-icon"><span class="ui-icon ui-icon-help"></span></div>
+			<p>Do you require a Will which includes a Discretionary Trust?</p>
+			<& /decision_trees/radio_buttons.mi, q9 => [[qw(yes dialog-wills-835)],[qw(no dialog-wills-931)]] &>
+		</div>
+		<& /decision_trees/control_buttons.mi, next => 'q9_next', prev => 'will-tree-b3', info => 'Please answer the above question to proceed', title => 'UKLO Will Selector' &>
+	</div>
+</div>

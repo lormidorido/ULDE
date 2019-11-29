@@ -1,0 +1,103 @@
+<%init>
+    use utf8;
+</%init>
+		  </main>
+		  <footer id="footer">
+		  	<div class="top">
+				  <div class="row collapse">
+					  <div class="medium-6 columns">
+			  			<div class="links">
+			  			<i class="fi-lightbulb"></i>
+			  				<h4>UK Law Online</h4>
+			  				<p class="text-justify">We comprise legal experts and passionate technologists bringing an online alternative to the high street law firm where you can access competitively priced legal services on your own terms rather than at the convenience of the provider. Join the revolution!</p>
+			  			</div>
+			  		</div>
+			  		<div class="medium-5 columns">
+			  			<div class="links">
+			  				<i class="fi-torso-business"></i>
+			  				<h4>Need help using the site?</h4>
+<!--			  				<p>Finding it hard to navigate through the maze of legal jargon or requiring assistance identifying the right product? Our legal experts are available by phone or email to assist you every bit on the way providing advice and guidance specific to your circumstances. Why make it difficult, get in touch!</p> -->
+<!--			  				<p class="text-justify">Our legal experts are available by phone or email to assist you every bit on the way providing advice and guidance specific to your circumstances. Why make it difficult, get in touch!</p> -->
+								<p>Our IT team is available by phone or email to assist you if you are having difficulty using the site. Why make it difficult, get in touch!</p>
+			  			</div>
+			  		</div>
+					  <div class="medium-5 columns">
+			  			<div class="links">
+			  				<i class="fi-megaphone"></i>
+			  				<h4>Talk to us!</h4>
+			  				<p class="text-justify">We welcome any suggestions on improvement and value greatly any feedback. If you like what we do, recommend us on any of the social media listed below!</p>
+<!--			  				<p>For any questions not requiring a legal expert or should you need technical support, please do not hesitate to get in touch! We welcome any suggestions on improvement and value greatly any feedback. If you like what we do, recommend us on any of the social media listed below!</p> -->
+			  			</div>
+			  		</div>
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="row collapse">
+						<div class="medium-12 xlarge-13 columns links">
+							<ul class="medium-block-grid-6 links">
+								<li><a href="/" class="uklo-logo"></a></li>
+								<li><a href="/">Home</a></li>
+								<li><a href="<% $c->uri_for('/product/business') %>">Business</a></li>
+								<li><a href="<% $c->uri_for('/product/personal') %>">Personal</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Contact</a></li>
+							</ul>
+							<p class="copyright">© 2011–2014 UK Law Online, Inc. All rights reserved.</p>
+						</div>
+						<div class="medium-4 xlarge-3 columns social">
+							<ul class="medium-block-grid-5">
+								<li><a href="" class="webicon facebook"></a></li>
+								<li><a href="" class="webicon twitter"></a></li>
+								<li><a target="_blank" href="https://plus.google.com/u/0/112511244136191285011/about" class="webicon googleplus"></a></li>
+								<li><a href="" class="webicon dropbox"></a></li>
+								<li><a href="" class="webicon mail"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		  </footer>
+		</div>
+    <script src="<% $.static_root %>/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="<% $.static_root %>/bower_components/foundation/js/foundation.min.js"></script>
+%   if ($c->stash->{load_component}->{carousel}) {
+    	<script src="<% $.static_root %>/bower_components/slick-carousel/slick/slick.min.js"></script>
+%		}
+%   if ($c->stash->{load_component}->{tinymce}) {
+    	<script src="<% $.static_root %>/bower_components/tinymce/tinymce.min.js"></script>
+%		}
+%   if ($c->stash->{load_component}->{date_picker}) {
+			<script src="<% $.static_root %>/bower_components/foundation-datepicker/js/foundation-datepicker.js"></script>
+%		}
+%   if ($c->stash->{load_component}->{data_tables}) {
+			<script src="<% $.static_root %>/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+			<script src="<% $.static_root %>/bower_components/datatables/media/js/dataTables.foundation.min.js"></script>
+<!--			<script src="<% $.static_root %>/bower_components/datatables/media/js/dataTables.tableTools.js"></script> -->
+<!--			<script src="<% $.static_root %>/bower_components/datatables/media/js/dataTables.fixedHeader.js"></script> -->
+%		}
+
+    <script src="<% $.static_root %>/js/app.js"></script>
+
+%		if ($c->stash->{modal}) {
+%			foreach my $modal_args (@{$c->stash->{modal}}) {
+				<& /widgets/modal_container.mi, %{$modal_args} &>
+%			}
+%		}
+
+%		if ($c->stash->{modal_loading_src}) {
+			<script>
+				$(document).ready(function(){
+					$('#modal_small').foundation('reveal', 'open', '<% $c->stash->{modal_loading_src} %>');
+				});
+			</script>
+%		}
+%		if ($c->stash->{awaiting_logon}) {
+			<script type="text/javascript">
+				$(document).ready(function(){
+					open_assembler_on_logon(false);
+				});
+			</script>
+%		}
+
+
+	</body>
+</html>
